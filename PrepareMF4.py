@@ -87,6 +87,7 @@ def main():
             #################################
             # The Nexiq CAN reader presents the DataBytes in a proprietary format.
             # The following decoding is based on documentation from Nexiq's technical support.
+            # See included image "Log Format.png".
             # (Recommended Practice, Proposed RP 1210C; RP1210C-FINAL.pdf, page 39, section 15.5: The J1939 Message from RP1210_ReadMessage)
             timestamp_hex   = dataBytes_hex[0:8]
             echoByte_hex    = dataBytes_hex[8:10]

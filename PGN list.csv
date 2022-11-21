@@ -1,0 +1,2827 @@
+PGN;PGN label;In CSS electronics' DBC?
+256;Transmission Control 1;J1939 DBC
+512;Electronic Brake System #1/1;No
+768;Electronic Brake System #2/1;No
+1024;External Brake Request;J1939 DBC
+1280;CANopen Application Message #1/1;No
+1536;CANopen Application Message #2/1;No
+1792;General Purpose Valve Pressure;J1939 DBC & ISOBUS DBC
+2048;Auxiliary Input/Output Status 5;J1939 DBC
+2304;Static Roll Angle Sensor Information;J1939 DBC
+2560;Cruise Control / Vehicle Speed 2;J1939 DBC
+2816;Advanced Emergency Braking System 2;J1939 DBC
+3072;Electronic Engine Controller 16;J1939 DBC
+3328;Transmission Control 2;J1939 DBC
+3584;Safety Header Message;No
+3840;High Voltage Energy Storage Pack 11 Control 1;J1939 DBC
+4096;High Voltage Energy Storage Pack 12 Control 1;J1939 DBC
+4352;High Voltage Energy Storage Pack 13 Control 1;J1939 DBC
+4608;High Voltage Energy Storage Pack 14 Control 1;J1939 DBC
+4864;High Voltage Energy Storage Pack 15 Control 1;J1939 DBC
+5120;High Voltage Energy Storage Pack 16 Control 1;J1939 DBC
+5376;High Voltage Energy Storage Pack 17 Control 1;J1939 DBC
+5632;High Voltage Energy Storage Pack 18 Control 1;J1939 DBC
+5888;High Voltage Energy Storage Pack 19 Control 1;J1939 DBC
+6144;High Voltage Energy Storage Pack 20 Control 1;J1939 DBC
+6400;High Voltage Energy Storage Pack 21 Control 1;J1939 DBC
+6656;High Voltage Energy Storage Pack 22 Control 1;J1939 DBC
+6912;High Voltage Energy Storage 1 Control 1;J1939 DBC
+7168;Transmission Control 3;J1939 DBC
+7424;Engine Ignition Controller;J1939 DBC
+7680;Alternator Control;J1939 DBC
+7936;High Voltage Energy Storage Pack 23 Control 1;J1939 DBC
+8192;High Voltage Energy Storage Pack 24 Control 1;J1939 DBC
+8448;High Voltage Energy Storage Pack 25 Control 1;J1939 DBC
+8704;High Voltage Energy Storage Pack 26 Control 1;J1939 DBC
+8960;Tractor Implement Management (TIM) Server to TIM Client;No
+9216;Tractor Implement Management (TIM) Client to TIM Server;No
+9472;CiA 602-2 Multi-PDU;No
+9728;Motor/Generator 1 Inverter Control;No
+9984;Motor/Generator 2 Inverter Control;No
+10240;Motor/Generator 1 Inverter Rate Limits Request 1;J1939 DBC
+10496;Motor/Generator 2 Inverter Rate Limits Request 1;J1939 DBC
+10752;High Voltage Energy Storage Pack 1 Control 1;J1939 DBC
+11008;High Voltage Energy Storage Pack 2 Control 1;J1939 DBC
+11264;High Voltage Energy Storage Pack 3 Control 1;J1939 DBC
+11520;High Voltage Energy Storage Pack 4 Control 1;J1939 DBC
+11776;High Voltage Energy Storage Pack 5 Control 1;J1939 DBC
+12032;High Voltage Energy Storage Pack 6 Control 1;J1939 DBC
+12288;High Voltage Energy Storage Pack 7 Control 1;J1939 DBC
+12544;High Voltage Energy Storage Pack 8 Control 1;J1939 DBC
+12800;High Voltage Energy Storage Pack 9 Control 1;J1939 DBC
+13056;High Voltage Energy Storage Pack 10 Control 1;J1939 DBC
+19456;Electrified Accessory Engine Coolant Pump Command;J1939 DBC
+20224;Data Transfer Support;J1939 DBC
+20480;Monthly Data Transfer;J1939 DBC
+20736;Weekly Data Transfer;J1939 DBC
+20992;Daily Data Transfer;J1939 DBC
+21248;EVSE 1 Control 1;J1939 DBC
+21504;Winch Information 3;J1939 DBC
+21760;Air Suspension Control 8;J1939 DBC
+22016;Motor/Generator 2 Inverter Control 2;J1939 DBC
+22272;Motor/Generator 1 Inverter Control 2;J1939 DBC
+22528;Hoist Command Information;J1939 DBC
+22784;Motor/Generator 2 Inverter Isolation Integrity Request;J1939 DBC
+23040;Motor/Generator 1 Inverter Isolation Integrity Request;J1939 DBC
+23296;Motor/Generator 2 Inverter Limits Request Power;No
+23552;Motor/Generator 2 Inverter Limits Request Mechanical;No
+23808;Motor/Generator 2 Inverter Limits Request DC Side;No
+24064;Motor/Generator 1 Inverter Limits Request DC Side;No
+24320;Motor/Generator 1 Inverter Limits Request Mechanical;No
+24576;Motor/Generator 1 Inverter Limits Request Power;No
+24832;Personnel Detect Interlock;J1939 DBC
+25088;Engine Cylinder Combustion Configuration Feedback;J1939 DBC
+25344;Engine Cylinder Combustion Configuration;J1939 DBC
+25600;Engine Cylinder Pressure Timing Feedback;J1939 DBC
+25856;Engine Cylinder Pressure Timing Configuration;J1939 DBC
+26112;Electrified Accessory Generator Coolant Pump Command;J1939 DBC
+26368;Electrified Accessory Generator Coolant Fan Command;J1939 DBC
+26624;On Board Programming 1;J1939 DBC
+26880;Marine Control Information Configuration 1;J1939 DBC
+27136;Marine Control Information 2;J1939 DBC
+27392;Well Stimulation Pump Sensor Calibration Command;J1939 DBC
+27648;CiA 602-2 XCP;No
+27904;Well Stimulation Pump System Configuration Command;J1939 DBC
+28160;Configurable Receive SPNs Command;No
+28416;Authentication Client to Authentication Server;No
+28672;Authentication Server to Authentication Client;No
+28928;Configurable Transmit PGNs Command;J1939 DBC
+29184;Oil Debris Monitor Configuration Command;J1939 DBC
+29440;Electrified Accessory Propulsion Motor Coolant Fan 3 Command;J1939 DBC
+29696;Electrified Accessory Propulsion Motor Coolant Fan 2 Command;J1939 DBC
+29952;Electrified Accessory Propulsion Motor Coolant Fan 1 Command;J1939 DBC
+30208;Electrified Accessory Power Electronics Coolant Fan 3 Command;J1939 DBC
+30464;Electrified Accessory Power Electronics Coolant Fan 2 Command;J1939 DBC
+30720;Electrified Accessory Power Electronics Coolant Fan 1 Command;J1939 DBC
+30976;Electrified Accessory Propulsion Motor Oil Pump Command;J1939 DBC
+31232;Electrified Accessory Propulsion Motor Coolant Pump Command;J1939 DBC
+31488;Electrified Accessory Power Electronics Coolant Pump Command;J1939 DBC
+32000;Electrified Accessory Motor Command;J1939 DBC
+32256;Engine Speed Ramp Rate Boundary Request;J1939 DBC
+32512;Tire Sensor Identification Command;J1939 DBC
+32768;Hybrid System Control 1;J1939 DBC
+33024;Aftertreatment System Control;J1939 DBC
+33280;Tire Configuration Command Information;J1939 DBC
+33536;Payload Calibration Information Command;J1939 DBC
+33792;Aftertreatment 1 Particulate Sensor Control;J1939 DBC
+34048;Cab Message 2;J1939 DBC
+34304;Switched Power Outputs Command;J1939 DBC
+34560;Engine State Requests;J1939 DBC
+34816;Radio Beacon Request;J1939 DBC
+35072;Running Gear Equipment #2/4;No
+35328;Running Gear Equipment #1/2;No
+35584;CCP Data Transmission Object;No
+35840;CCP Command Receive Object;No
+36096;Sequence Control Client-to-Sequence Control Master;No
+36352;Sequence Control Master-to-Sequence Control Client;No
+36608;Engine Configuration Commands;J1939 DBC
+36864;Supplemental Fan Command;J1939 DBC
+37120;Vehicle/Chassis Lubrication System 1;J1939 DBC
+37376;Aftertreatment 1 Hydrocarbon Doser Information 1;J1939 DBC
+37632;NAME Management Message;No
+37888;Aftertreatment 1 Diesel Particulate Filter Soot Sensor Calibration;J1939 DBC
+38144;Aftertreatment 2 Diesel Particulate Filter Soot Sensor Calibration;J1939 DBC
+38400;Low Voltage Disconnect Set Operating Mode;J1939 DBC
+38656;Noise Control Status;J1939 DBC
+38912;Noise Control 1;J1939 DBC
+39168;Joystick Lamp Command Message;J1939 DBC
+39424;General Purpose Message #1/8;No
+39680;Proprietary Method Identification;J1939 DBC
+39936;Auxiliary Input/Output Status 7;J1939 DBC
+40192;Auxiliary Input/Output Status 6;J1939 DBC
+40448;DTC Counts;No
+40704;Immediate Fault Status;No
+40960;NTE Status;No
+41216;Emission Increasing Auxiliary Emission Control Device Active Time;No
+41472;Regulated Exhaust Emission Level Exceedance;No
+41728;DTC To Lamp Association;No
+41984;Scaled Test Results;No
+42240;Auxiliary Input/Output Status 4;J1939 DBC
+42496;Auxiliary Input/Output Status 3;J1939 DBC
+42752;Auxiliary Input/Output Status 2;J1939 DBC
+43008;Text Display;No
+43264;Forward Lane Image Command;J1939 DBC
+43520;Client (ECU) to File Server message;No
+43776;File Server to Client (ECU) message;No
+44032;Agricultural Guidance Machine Info;ISOBUS DBC (2022-08)
+44288;Agricultural Guidance System command;ISOBUS DBC (2022-08)
+44544;Tire Pressure Reference Setting;J1939 DBC
+44800;Parameter Locate Message;No
+45056;Configuration Identification Message;No
+45312;Proprietarily Configurable Message #1;No
+45568;Proprietarily Configurable Message #2;No
+45824;Proprietarily Configurable Message #3;No
+46080;Proprietarily Configurable Message #4;No
+46336;Proprietarily Configurable Message #5;No
+46592;Proprietarily Configurable Message #6;No
+46848;Proprietarily Configurable Message #7;No
+47104;Proprietarily Configurable Message #8;No
+47360;Proprietarily Configurable Message #9;No
+47616;Proprietarily Configurable Message #10;No
+47872;Proprietarily Configurable Message #11;No
+48128;Proprietarily Configurable Message #12;No
+48384;Proprietarily Configurable Message #13;No
+48640;Proprietarily Configurable Message #14;No
+48896;Proprietarily Configurable Message #15;No
+49152;Proprietarily Configurable Message #16;No
+49408;Diagnostic Readiness 2;No
+49664;Monitor Performance Ratio;No
+49920;Individual Clear/Reset Of Active And Previously Active DTC;No
+50176;General Purpose Valve command;ISOBUS DBC (2022-08)
+50432;General Purpose Valve measured flow;ISOBUS DBC (2022-08)
+50688;General Purpose Valve estimated flow;ISOBUS DBC (2022-08)
+50944;Extended Transport Protocol - Data Transfer;No
+51200;Extended Transport Protocol - Connection Management;No
+51456;Request 2;No
+51712;Transfer;No
+51968;Process Data Message;No
+52224;Request for Repetition Rate;ISOBUS DBC (2022-08)
+52480;Reserved for ISO 15765-2;No
+52736;Reserved for ISO 15765-2;No
+52992;Continuous Torque & Speed Limit Request;J1939 DBC
+53248;Background lighting level command;J1939 DBC & ISOBUS DBC
+53504;Air Suspension Control 6;J1939 DBC
+53760;Air Suspension Control 2;J1939 DBC
+54016;Calibration Information;No
+54272;Data Security;No
+54528;Time/Date Adjust;J1939 DBC
+54784;Boot Load Data;No
+55040;Binary Data Transfer;No
+55296;Memory Access Response;No
+55552;Memory Access Request;No
+55808;Reserved for ISO 15765-2;No
+56064;Reserved for ISO 15765-2;No
+56320;Anti-theft Status;J1939 DBC
+56576;Anti-theft Request;J1939 DBC
+56832;Reset;J1939 DBC
+57088;Stop Start Broadcast;No
+57344;Cab Message 1;J1939 DBC
+57600;General Purpose Message #2/1;No
+57856;General Purpose Message #1/1;No
+58112;Command Non-continuously Monitored Test;No
+58368;Running Gear Equipment #1/1;No
+58624;Running Gear Equipment #2/1;No
+58880;Virtual Terminal-to-Node;No
+59136;Node-to-Virtual Terminal;No
+59392;ISO Acknowledgment;NMEA DBC
+59904;ISO Request;NMEA DBC (2022)
+60160;"ISO Transport Protocol, Data Transfer";NMEA DBC
+60416;Transport Protocol - Connection Mgmt;No
+60672;Network Layer;No
+60928;ISO Address Claim;NMEA DBC
+61184;Proprietary A;No
+61440;Electronic Retarder Controller 1;J1939 DBC
+61441;Electronic Brake Controller 1;J1939 DBC
+61442;Electronic Transmission Controller 1;J1939 DBC
+61443;Electronic Engine Controller 2;J1939 DBC
+61444;Electronic Engine Controller 1;J1939 DBC
+61445;Electronic Transmission Controller 2;J1939 DBC
+61446;Electronic Axle Controller 1;J1939 DBC
+61447;Forward Lane Image 1;J1939 DBC
+61448;Hydraulic Pressure Governor Info;J1939 DBC
+61449;Vehicle Dynamic Stability Control 2;J1939 DBC
+61450;Engine Gas Flow Rate;J1939 DBC
+61451;Electronic Steering Control;J1939 DBC
+61452;Electronic Transmission Controller #8;J1939 DBC
+61453;Land Leveling System Operational Information;J1939 DBC
+61454;Aftertreatment 1 Intake Gas 1;J1939 DBC
+61455;Aftertreatment 1 Outlet Gas 1;J1939 DBC
+61456;Aftertreatment 2 Intake Gas 1;J1939 DBC
+61457;Aftertreatment 2 Outlet Gas 1;J1939 DBC
+61458;Fifth Wheel Smart Systems 1;J1939 DBC
+61459;Slope Sensor Information;J1939 DBC
+61460;Blade Information;J1939 DBC
+61461;Requested Generator Total AC Reactive Power;J1939 DBC
+61462;Cylinder Combustion Status;J1939 DBC
+61463;Engine Knock Level #1;J1939 DBC
+61464;Engine Knock Level #2;J1939 DBC
+61465;Engine Knock Level #3;J1939 DBC
+61466;Engine Throttle / Fuel Actuator Control Command;J1939 DBC
+61467;General Purpose Message #1/7;No
+61468;Requested Generator Average Basic AC Quantities;J1939 DBC
+61469;Steering Angle Sensor Information;J1939 DBC
+61470;Generator Control 2;J1939 DBC
+61471;Electronic Brake System #2/6;No
+61472;Electronic Brake System #2/5;No
+61473;Engine Speed Sensor Information 1;J1939 DBC
+61474;Machine Selected Speed;ISOBUS DBC (2022-08)
+61475;Aftertreatment 1 SCR Dosing System Information 1;J1939 DBC
+61476;Aftertreatment 1 SCR Dosing System Requests 1;J1939 DBC
+61477;Aftertreatment 1 SCR Ammonia Information;J1939 DBC
+61478;Aftertreatment 2 SCR Dosing System Information 1;J1939 DBC
+61479;Aftertreatment 2 SCR Dosing System Requests 1;J1939 DBC
+61480;Aftertreatment 2 SCR Ammonia Information;J1939 DBC
+61481;Slope Sensor Information 2;J1939 DBC
+61482;Angular Rate Information;J1939 DBC
+61483;Crash Notification;J1939 DBC
+61484;Magnet Status Information 2;J1939 DBC
+61485;Acceleration Sensor;J1939 DBC
+61486;Engine Turbocharger Control;J1939 DBC
+61487;Advanced Emergency Braking System 1;J1939 DBC
+61488;Wireless Status;J1939 DBC
+61489;Wand Sensor;J1939 DBC
+61490;Linear Displacement Sensor;J1939 DBC
+61491;Aftertreatment 1 SCR Ammonia Information 2;J1939 DBC
+61492;Aftertreatment 2 SCR Ammonia Information 2;J1939 DBC
+61494;High Voltage Energy Storage 1 Status 2;J1939 DBC
+61495;Engine Turbocharger Blowoff Actuator 1;J1939 DBC
+61496;Engine Torque / Fuel Request;J1939 DBC
+61497;Engine Air System Information;J1939 DBC
+61498;Engine Cylinder 1 Combustion Information;J1939 DBC
+61499;Engine Cylinder 2 Combustion Information;J1939 DBC
+61500;Engine Cylinder 3 Combustion Information;J1939 DBC
+61501;Engine Cylinder 4 Combustion Information;J1939 DBC
+61502;Engine Cylinder 5 Combustion Information;J1939 DBC
+61503;Engine Cylinder 6 Combustion Information;J1939 DBC
+61504;Engine Cylinder 7 Combustion Information;J1939 DBC
+61505;Engine Cylinder 8 Combustion Information;J1939 DBC
+61506;Engine Cylinder 9 Combustion Information;J1939 DBC
+61507;Engine Cylinder 10 Combustion Information;J1939 DBC
+61508;Engine Cylinder 11 Combustion Information;J1939 DBC
+61509;Engine Cylinder 12 Combustion Information;J1939 DBC
+61510;Engine Cylinder 13 Combustion Information;J1939 DBC
+61511;Engine Cylinder 14 Combustion Information;J1939 DBC
+61512;Engine Cylinder 15 Combustion Information;J1939 DBC
+61513;Engine Cylinder 16 Combustion Information;J1939 DBC
+61514;Engine Cylinder 17 Combustion Information;J1939 DBC
+61515;Engine Cylinder 18 Combustion Information;J1939 DBC
+61516;Engine Cylinder 19 Combustion Information;J1939 DBC
+61517;Engine Cylinder 20 Combustion Information;J1939 DBC
+61518;Engine Cylinder 1 Combustion Average Information;J1939 DBC
+61519;Engine Cylinder 2 Combustion Average Information;J1939 DBC
+61520;Engine Cylinder 3 Combustion Average Information;J1939 DBC
+61521;Engine Cylinder 4 Combustion Average Information;J1939 DBC
+61522;Engine Cylinder 5 Combustion Average Information;J1939 DBC
+61523;Engine Cylinder 6 Combustion Average Information;J1939 DBC
+61524;Engine Cylinder 7 Combustion Average Information;J1939 DBC
+61525;Engine Cylinder 8 Combustion Average Information;J1939 DBC
+61526;Engine Cylinder 9 Combustion Average Information;J1939 DBC
+61527;Engine Cylinder 10 Combustion Average Information;J1939 DBC
+61528;Engine Cylinder 11 Combustion Average Information;J1939 DBC
+61529;Engine Cylinder 12 Combustion Average Information;J1939 DBC
+61530;Engine Cylinder 13 Combustion Average Information;J1939 DBC
+61531;Engine Cylinder 14 Combustion Average Information;J1939 DBC
+61532;Engine Cylinder 15 Combustion Average Information;J1939 DBC
+61533;Engine Cylinder 16 Combustion Average Information;J1939 DBC
+61534;Engine Cylinder 17 Combustion Average Information;J1939 DBC
+61535;Engine Cylinder 18 Combustion Average Information;J1939 DBC
+61536;Engine Cylinder 19 Combustion Average Information;J1939 DBC
+61537;Engine Cylinder 20 Combustion Average Information;J1939 DBC
+61538;Electronic Transmission Controller #12;J1939 DBC
+61539;Fuel Information 5 (Gaseous);J1939 DBC
+61540;Engine Gaseous Fuel Valve Duration Command 1;J1939 DBC
+61541;Engine Gaseous Fuel Valve Duration Command 2;J1939 DBC
+61542;Engine Gaseous Fuel Valve Duration Command 3;J1939 DBC
+61543;Engine Gaseous Fuel Valve Duration Command 4;J1939 DBC
+61544;Engine Gaseous Fuel Valve Duration Command 5;J1939 DBC
+61545;Engine Gaseous Fuel Valve Start of Actuation Command 1;J1939 DBC
+61546;Engine Gaseous Fuel Valve Start of Actuation Command 2;J1939 DBC
+61547;Engine Gaseous Fuel Valve Start of Actuation Command 3;J1939 DBC
+61548;Engine Gaseous Fuel Valve Start of Actuation Command 4;J1939 DBC
+61549;Engine Gaseous Fuel Valve Start of Actuation Command 5;J1939 DBC
+61550;Fuel Pump Actuator Control Command;J1939 DBC
+61551;Power Converter 1 Control 1;J1939 DBC
+61552;Power Converter 2 Control 1;J1939 DBC
+61553;Power Converter 1 Rate Limits Request 1;J1939 DBC
+61554;Power Converter 2 Rate Limits Request 1;J1939 DBC
+61555;Power Converter 2 Control 2;J1939 DBC
+61556;Power Converter 1 Control 2;J1939 DBC
+61557;Power Converter 1 Mode Feedback 1;J1939 DBC
+61558;Power Converter 1 Limits Active Power;J1939 DBC
+61559;Power Converter 1 Limits Active Electrical;J1939 DBC
+61560;Power Converter 1 Limits Active DC Energy Source 1;J1939 DBC
+61561;Power Converter 1 Low Voltage;J1939 DBC
+61562;Power Converter 2 Mode Feedback 1;J1939 DBC
+61563;Power Converter 2 Limits Active Power;J1939 DBC
+61564;Power Converter 2 Limits Active Electrical;J1939 DBC
+61565;Power Converter 2 Limits Active DC Energy Source 1;J1939 DBC
+61566;Power Converter 2 Low Voltage;J1939 DBC
+61567;Power Converter 1 Status 2;J1939 DBC
+61568;Power Converter 1 Rate Limits Active 1;J1939 DBC
+61569;Power Converter 2 Status 2;J1939 DBC
+61570;Power Converter 2 Rate Limits Active 1;J1939 DBC
+61571;Power Converter 2 Isolation Integrity;J1939 DBC
+61572;Power Converter 1 Isolation Integrity;J1939 DBC
+61573;Power Converter 2 Status 1;J1939 DBC
+61574;Power Converter 1 Status 1;J1939 DBC
+61584;High Voltage Energy Storage 1 Data 1;J1939 DBC
+61585;High Voltage Energy Storage 1 Data 2;J1939 DBC
+61586;High Voltage Energy Storage 1 Data 3;J1939 DBC
+61587;High Voltage Energy Storage 1 Data 4;J1939 DBC
+61588;High Voltage Energy Storage 1 Data 5;J1939 DBC
+61589;High Voltage Energy Storage 1 Data 6;J1939 DBC
+61590;High Voltage Energy Storage 1 Status 1;J1939 DBC
+61600;High Voltage Energy Storage 1 Data 7;J1939 DBC
+61640;DC/AC Accessory Inverter 1 Status 2;J1939 DBC
+61641;DC/AC Accessory Inverter 1 Voltage;J1939 DBC
+61642;DC/AC Accessory Inverter 1 Feedback 2;J1939 DBC
+61643;DC/AC Accessory Inverter 2 Status 2;J1939 DBC
+61644;DC/AC Accessory Inverter 2 Voltage;J1939 DBC
+61645;DC/AC Accessory Inverter 2 Feedback 2;J1939 DBC
+61648;Engine Cylinder Combustion Request;J1939 DBC
+61649;Engine Cylinder Head Bypass Actuator 1;J1939 DBC
+61650;Engine Electronic Controller 18;J1939 DBC
+61651;Predictive Cruise Control 1;J1939 DBC
+61654;DC/AC Accessory Inverter 1 Command;J1939 DBC
+61655;DC/AC Accessory Inverter 1 Feedback;J1939 DBC
+61658;DC/AC Accessory Inverter 2 Command;J1939 DBC
+61659;DC/AC Accessory Inverter 2 Feedback;J1939 DBC
+61662;DC/AC Accessory Inverter 3 Command;J1939 DBC
+61663;DC/AC Accessory Inverter 3 Feedback;J1939 DBC
+61666;DC/AC Accessory Inverter 4 Command;J1939 DBC
+61667;DC/AC Accessory Inverter 4 Feedback;J1939 DBC
+61668;Heartbeat Message;ISOBUS DBC (2022-08)
+61669;Engine Ignition Timing Offset 1;J1939 DBC
+61670;Engine Ignition Timing Offset 2;J1939 DBC
+61671;Engine Ignition Timing Offset 3;J1939 DBC
+61672;Engine Throttle / Fuel Actuator Control Command 2;J1939 DBC
+61673;Aftertreatment 1 Intake Gas 3;J1939 DBC
+61674;Aftertreatment 1 Outlet Gas 3;J1939 DBC
+61675;Aftertreatment 2 Intake Gas Sensor 2;J1939 DBC
+61676;Aftertreatment 2 Outlet Gas Sensor 2;J1939 DBC
+61677;Engine Start Control;J1939 DBC
+61685;Engine Start Arbitrator;J1939 DBC
+61686;Advanced Driver Assistance Systems Interface Specification 1;No
+61687;Advanced Driver Assistance Systems Interface Specification 2;No
+61688;Advanced Driver Assistance Systems Interface Specification 3;No
+61689;Engine Valve Controller;J1939 DBC
+61690;Electronic Transmission Controller 13;J1939 DBC
+61691;Aftertreatment 1 SCR Dosing System Requests 3;J1939 DBC
+61692;Aftertreatment 2 SCR Dosing System Requests 3;J1939 DBC
+61693;Aftertreatment 1 SCR Dosing System Information 4;J1939 DBC
+61694;Aftertreatment 2 SCR Dosing System Information 4;J1939 DBC
+61695;Secondary or Front Hitch Roll and Pitch;ISOBUS DBC (2022-08)
+61696;Secondary or Front Hitch Roll and Pitch command;ISOBUS DBC (2022-08)
+61697;Primary or Rear Hitch Roll and Pitch;ISOBUS DBC (2022-08)
+61698;Primary or Rear Hitch Roll and Pitch command;ISOBUS DBC (2022-08)
+61699;Generator Trip Energy;J1939 DBC
+61700;Engine Speed Sensor Information 2;J1939 DBC
+61701;Hydraulic Pressure Displacement;J1939 DBC
+61702;Well Stimulation Pump System 1;J1939 DBC
+61703;Well Stimulation Pump System 2;J1939 DBC
+61704;High Voltage Energy Storage 1 Module Status 1;J1939 DBC
+61705;High Voltage Energy Storage 1 Thermal Management System Status 1;J1939 DBC
+61706;High Voltage Energy Storage 1 Data 8;J1939 DBC
+61707;High Voltage Energy Storage 1 Data 9;J1939 DBC
+61708;High Voltage Energy Storage 1 Data 10;J1939 DBC
+61709;Fuel Information 6 (Gaseous);J1939 DBC
+61710;Dump Truck Body Information;J1939 DBC
+61711;Engine Operating Information 2;J1939 DBC
+61712;Brakes 2;J1939 DBC
+61713;Gaseous Fuel Pressure 3;J1939 DBC
+61714;DC/DC Converter 1 Control;J1939 DBC
+61715;DC/DC Converter 1 Operating Status;J1939 DBC
+61716;DC/DC Converter 1 Voltage and Current;J1939 DBC
+61717;DC/DC Converter 1 SLI Battery Status;J1939 DBC
+61718;Well Stimulation Pump System 3;J1939 DBC
+61719;DC/DC Converter 1 Status 2;J1939 DBC
+61720;DC/DC Converter 2 Control;J1939 DBC
+61721;DC/DC Converter 2 Operating Status;J1939 DBC
+61722;DC/DC Converter 2 Voltage and Current;J1939 DBC
+61723;DC/DC Converter 2 SLI Battery Status;J1939 DBC
+61724;DC/DC Converter 2 Status 2;J1939 DBC
+61725;DC/DC Converter 3 Control;J1939 DBC
+61726;DC/DC Converter 3 Operating Status;J1939 DBC
+61727;DC/DC Converter 3 Voltage and Current;J1939 DBC
+61728;DC/DC Converter 3 SLI Battery Status;J1939 DBC
+61729;DC/DC Converter 3 Status 2;J1939 DBC
+61730;DC/DC Converter 4 Control;J1939 DBC
+61731;DC/DC Converter 4 Operating Status;J1939 DBC
+61732;DC/DC Converter 4 Voltage and Current;J1939 DBC
+61733;DC/DC Converter 4 SLI Battery Status;J1939 DBC
+61734;DC/DC Converter 4 Status 2;J1939 DBC
+61735;Slope Sensor Information 3;J1939 DBC
+61736;DC/AC Accessory Inverter 3 Status 2;J1939 DBC
+61737;DC/AC Accessory Inverter 3 Voltage;J1939 DBC
+61738;DC/AC Accessory Inverter 3 Feedback 2;J1939 DBC
+61739;DC/AC Accessory Inverter 4 Status 2;J1939 DBC
+61740;DC/AC Accessory Inverter 4 Voltage;J1939 DBC
+61741;DC/AC Accessory Inverter 4 Feedback 2;J1939 DBC
+61742;DC/AC Accessory Inverter 5 Command;J1939 DBC
+61743;DC/AC Accessory Inverter 5 Feedback;J1939 DBC
+61744;DC/AC Accessory Inverter 5 Status 2;J1939 DBC
+61745;DC/AC Accessory Inverter 5 Voltage;J1939 DBC
+61746;DC/AC Accessory Inverter 5 Feedback 2;J1939 DBC
+61747;Engine Pre-Chamber Fuel Valve Duration Command 1;J1939 DBC
+61748;Engine Pre-Chamber Fuel Valve Duration Command 2;J1939 DBC
+61749;Engine Pre-Chamber Fuel Valve Duration Command 3;J1939 DBC
+61750;Engine Pre-Chamber Fuel Valve Duration Command 4;J1939 DBC
+61751;Engine Pre-Chamber Fuel Valve Duration Command 5;J1939 DBC
+61752;Engine Pre-Chamber Fuel Valve Start of Actuation Command 1;J1939 DBC
+61753;Engine Pre-Chamber Fuel Valve Start of Actuation Command 2;J1939 DBC
+61754;Engine Pre-Chamber Fuel Valve Start of Actuation Command 3;J1939 DBC
+61755;Engine Pre-Chamber Fuel Valve Start of Actuation Command 4;J1939 DBC
+61756;Engine Pre-Chamber Fuel Valve Start of Actuation Command 5;J1939 DBC
+61757;Active Steering System Controls 1;J1939 DBC
+61758;Secondary or Front Hitch Yaw command;ISOBUS DBC (2022-08)
+61759;Primary or Rear Hitch Yaw command;ISOBUS DBC (2022-08)
+61760;Stationary Inverter Average Basic AC Quantities;J1939 DBC
+61761;Stationary Inverter Total AC Reactive Power;J1939 DBC
+61762;Stationary Inverter Total AC Power;J1939 DBC
+61763;Stationary Inverter Control;J1939 DBC
+61764;Stationary Inverter to Bus Sync Check Status;J1939 DBC
+61765;Engine Cylinder 1 Combustion Pressures;J1939 DBC
+61766;Engine Cylinder 2 Combustion Pressures;J1939 DBC
+61767;Engine Cylinder 3 Combustion Pressures;J1939 DBC
+61768;Engine Cylinder 4 Combustion Pressures;J1939 DBC
+61769;Engine Cylinder 5 Combustion Pressures;J1939 DBC
+61770;Engine Cylinder 6 Combustion Pressures;J1939 DBC
+61771;Engine Cylinder 7 Combustion Pressures;J1939 DBC
+61772;Engine Cylinder 8 Combustion Pressures;J1939 DBC
+61773;Engine Cylinder 9 Combustion Pressures;J1939 DBC
+61774;Engine Cylinder 10 Combustion Pressures;J1939 DBC
+61775;Engine Cylinder 11 Combustion Pressures;J1939 DBC
+61776;Engine Cylinder 12 Combustion Pressures;J1939 DBC
+61777;Engine Cylinder 13 Combustion Pressures;J1939 DBC
+61778;Engine Cylinder 14 Combustion Pressures;J1939 DBC
+61779;Engine Cylinder 15 Combustion Pressures;J1939 DBC
+61780;Engine Cylinder 16 Combustion Pressures;J1939 DBC
+61781;Engine Cylinder 17 Combustion Pressures;J1939 DBC
+61782;Engine Cylinder 18 Combustion Pressures;J1939 DBC
+61783;Engine Cylinder 19 Combustion Pressures;J1939 DBC
+61784;Engine Cylinder 20 Combustion Pressures;J1939 DBC
+61785;Engine Cylinder 1 Combustion Timing;J1939 DBC
+61786;Engine Cylinder 2 Combustion Timing;J1939 DBC
+61787;Engine Cylinder 3 Combustion Timing;J1939 DBC
+61788;Engine Cylinder 4 Combustion Timing;J1939 DBC
+61789;Engine Cylinder 5 Combustion Timing;J1939 DBC
+61790;Engine Cylinder 6 Combustion Timing;J1939 DBC
+61791;Engine Cylinder 7 Combustion Timing;J1939 DBC
+61792;Engine Cylinder 8 Combustion Timing;J1939 DBC
+61793;Engine Cylinder 9 Combustion Timing;J1939 DBC
+61794;Engine Cylinder 10 Combustion Timing;J1939 DBC
+61795;Engine Cylinder 11 Combustion Timing;J1939 DBC
+61796;Engine Cylinder 12 Combustion Timing;J1939 DBC
+61797;Engine Cylinder 13 Combustion Timing;J1939 DBC
+61798;Engine Cylinder 14 Combustion Timing;J1939 DBC
+61799;Engine Cylinder 15 Combustion Timing;J1939 DBC
+61800;Engine Cylinder 16 Combustion Timing;J1939 DBC
+61801;Engine Cylinder 17 Combustion Timing;J1939 DBC
+61802;Engine Cylinder 18 Combustion Timing;J1939 DBC
+61803;Engine Cylinder 19 Combustion Timing;J1939 DBC
+61804;Engine Cylinder 20 Combustion Timing;J1939 DBC
+61805;Engine Cylinder 1 Combustion Metrics;J1939 DBC
+61806;Engine Cylinder 2 Combustion Metrics;J1939 DBC
+61807;Engine Cylinder 3 Combustion Metrics;J1939 DBC
+61808;Engine Cylinder 4 Combustion Metrics;J1939 DBC
+61809;Engine Cylinder 5 Combustion Metrics;J1939 DBC
+61810;Engine Cylinder 6 Combustion Metrics;J1939 DBC
+61811;Engine Cylinder 7 Combustion Metrics;J1939 DBC
+61812;Engine Cylinder 8 Combustion Metrics;J1939 DBC
+61813;Engine Cylinder 9 Combustion Metrics;J1939 DBC
+61814;Engine Cylinder 10 Combustion Metrics;J1939 DBC
+61815;Engine Cylinder 11 Combustion Metrics;J1939 DBC
+61816;Engine Cylinder 12 Combustion Metrics;J1939 DBC
+61817;Engine Cylinder 13 Combustion Metrics;J1939 DBC
+61818;Engine Cylinder 14 Combustion Metrics;J1939 DBC
+61819;Engine Cylinder 15 Combustion Metrics;J1939 DBC
+61820;Engine Cylinder 16 Combustion Metrics;J1939 DBC
+61821;Engine Cylinder 17 Combustion Metrics;J1939 DBC
+61822;Engine Cylinder 18 Combustion Metrics;J1939 DBC
+61823;Engine Cylinder 19 Combustion Metrics;J1939 DBC
+61824;Engine Cylinder 20 Combustion Metrics;J1939 DBC
+61825;Motor/Generator 1 Inverter Mode Feedback 1;J1939 DBC
+61826;Motor/Generator 1 Inverter Limits Active Power;No
+61827;Motor/Generator 1 Inverter Limits Active Mechanical;No
+61828;Motor/Generator 1 Inverter Limits Active DC Side;No
+61829;Motor/Generator 1 Inverter Low Voltage;J1939 DBC
+61830;Motor/Generator 2 Inverter Mode Feedback 1;J1939 DBC
+61831;Motor/Generator 2 Inverter Limits Active Power;No
+61832;Motor/Generator 2 Inverter Limits Active Mechanical;No
+61833;Motor/Generator 2 Inverter Limits Active DC Side;No
+61834;Motor/Generator 2 Inverter Low Voltage;J1939 DBC
+61835;Motor/Generator 1 Inverter Status 2;J1939 DBC
+61836;Motor/Generator 1 Inverter Rate Limits Active 1;J1939 DBC
+61837;Motor/Generator 2 Inverter Status 2;J1939 DBC
+61838;Motor/Generator 2 Inverter Rate Limits Active 1;J1939 DBC
+61839;Impostor PG Alert;J1939 DBC
+61840;High Voltage Energy Storage Pack 1 Status 2;J1939 DBC
+61841;High Voltage Energy Storage Pack 1 Data 1;J1939 DBC
+61842;High Voltage Energy Storage Pack 1 Data 2;J1939 DBC
+61843;High Voltage Energy Storage Pack 1 Data 3;J1939 DBC
+61844;High Voltage Energy Storage Pack 1 Data 4;J1939 DBC
+61845;High Voltage Energy Storage Pack 1 Data 5;J1939 DBC
+61846;High Voltage Energy Storage Pack 1 Data 6;J1939 DBC
+61847;High Voltage Energy Storage Pack 1 Status 1;J1939 DBC
+61848;High Voltage Energy Storage Pack 1 Data 7;J1939 DBC
+61849;High Voltage Energy Storage Pack 1 Module Status 1;J1939 DBC
+61850;High Voltage Energy Storage Pack 1 Thermal Management System Status 1;J1939 DBC
+61851;High Voltage Energy Storage Pack 1 Data 8;J1939 DBC
+61852;High Voltage Energy Storage Pack 1 Data 9;J1939 DBC
+61853;High Voltage Energy Storage Pack 1 Data 10;J1939 DBC
+61854;High Voltage Energy Storage Pack 1 Data 11;J1939 DBC
+61855;High Voltage Energy Storage Pack 2 Status 2;J1939 DBC
+61856;High Voltage Energy Storage Pack 2 Data 1;J1939 DBC
+61857;High Voltage Energy Storage Pack 2 Data 2;J1939 DBC
+61858;High Voltage Energy Storage Pack 2 Data 3;J1939 DBC
+61859;High Voltage Energy Storage Pack 2 Data 4;J1939 DBC
+61860;High Voltage Energy Storage Pack 2 Data 5;J1939 DBC
+61861;High Voltage Energy Storage Pack 2 Data 6;J1939 DBC
+61862;High Voltage Energy Storage Pack 2 Status 1;J1939 DBC
+61863;High Voltage Energy Storage Pack 2 Data 7;J1939 DBC
+61864;High Voltage Energy Storage Pack 2 Module Status 1;J1939 DBC
+61865;High Voltage Energy Storage Pack 2 Thermal Management System Status 1;J1939 DBC
+61866;High Voltage Energy Storage Pack 2 Data 8;J1939 DBC
+61867;High Voltage Energy Storage Pack 2 Data 9;J1939 DBC
+61868;High Voltage Energy Storage Pack 2 Data 10;J1939 DBC
+61869;High Voltage Energy Storage Pack 2 Data 11;J1939 DBC
+61870;High Voltage Energy Storage Pack 3 Status 2;J1939 DBC
+61871;High Voltage Energy Storage Pack 3 Data 1;J1939 DBC
+61872;High Voltage Energy Storage Pack 3 Data 2;J1939 DBC
+61873;High Voltage Energy Storage Pack 3 Data 3;J1939 DBC
+61874;High Voltage Energy Storage Pack 3 Data 4;J1939 DBC
+61875;High Voltage Energy Storage Pack 3 Data 5;J1939 DBC
+61876;High Voltage Energy Storage Pack 3 Data 6;J1939 DBC
+61877;High Voltage Energy Storage Pack 3 Status 1;J1939 DBC
+61878;High Voltage Energy Storage Pack 3 Data 7;J1939 DBC
+61879;High Voltage Energy Storage Pack 3 Module Status 1;J1939 DBC
+61880;High Voltage Energy Storage Pack 3 Thermal Management System Status 1;J1939 DBC
+61881;High Voltage Energy Storage Pack 3 Data 8;J1939 DBC
+61882;High Voltage Energy Storage Pack 3 Data 9;J1939 DBC
+61883;High Voltage Energy Storage Pack 3 Data 10;J1939 DBC
+61884;High Voltage Energy Storage Pack 3 Data 11;J1939 DBC
+61885;High Voltage Energy Storage Pack 4 Status 2;J1939 DBC
+61886;High Voltage Energy Storage Pack 4 Data 1;J1939 DBC
+61887;High Voltage Energy Storage Pack 4 Data 2;J1939 DBC
+61888;High Voltage Energy Storage Pack 4 Data 3;J1939 DBC
+61889;High Voltage Energy Storage Pack 4 Data 4;J1939 DBC
+61890;High Voltage Energy Storage Pack 4 Data 5;J1939 DBC
+61891;High Voltage Energy Storage Pack 4 Data 6;J1939 DBC
+61892;High Voltage Energy Storage Pack 4 Status 1;J1939 DBC
+61893;High Voltage Energy Storage Pack 4 Data 7;J1939 DBC
+61894;High Voltage Energy Storage Pack 4 Module Status 1;J1939 DBC
+61895;High Voltage Energy Storage Pack 4 Thermal Management System Status 1;J1939 DBC
+61896;High Voltage Energy Storage Pack 4 Data 8;J1939 DBC
+61897;High Voltage Energy Storage Pack 4 Data 9;J1939 DBC
+61898;High Voltage Energy Storage Pack 4 Data 10;J1939 DBC
+61899;High Voltage Energy Storage Pack 4 Data 11;J1939 DBC
+61900;High Voltage Energy Storage Pack 5 Status 2;J1939 DBC
+61901;High Voltage Energy Storage Pack 5 Data 1;J1939 DBC
+61902;High Voltage Energy Storage Pack 5 Data 2;J1939 DBC
+61903;High Voltage Energy Storage Pack 5 Data 3;J1939 DBC
+61904;High Voltage Energy Storage Pack 5 Data 4;J1939 DBC
+61905;High Voltage Energy Storage Pack 5 Data 5;J1939 DBC
+61906;High Voltage Energy Storage Pack 5 Data 6;J1939 DBC
+61907;High Voltage Energy Storage Pack 5 Status 1;J1939 DBC
+61908;High Voltage Energy Storage Pack 5 Data 7;J1939 DBC
+61909;High Voltage Energy Storage Pack 5 Module Status 1;J1939 DBC
+61910;High Voltage Energy Storage Pack 5 Thermal Management System Status 1;J1939 DBC
+61911;High Voltage Energy Storage Pack 5 Data 8;J1939 DBC
+61912;High Voltage Energy Storage Pack 5 Data 9;J1939 DBC
+61913;High Voltage Energy Storage Pack 5 Data 10;J1939 DBC
+61914;High Voltage Energy Storage Pack 5 Data 11;J1939 DBC
+61915;High Voltage Energy Storage Pack 6 Status 2;J1939 DBC
+61916;High Voltage Energy Storage Pack 6 Data 1;J1939 DBC
+61917;High Voltage Energy Storage Pack 6 Data 2;J1939 DBC
+61918;High Voltage Energy Storage Pack 6 Data 3;J1939 DBC
+61919;High Voltage Energy Storage Pack 6 Data 4;J1939 DBC
+61920;High Voltage Energy Storage Pack 6 Data 5;J1939 DBC
+61921;High Voltage Energy Storage Pack 6 Data 6;J1939 DBC
+61922;High Voltage Energy Storage Pack 6 Status 1;J1939 DBC
+61923;High Voltage Energy Storage Pack 6 Data 7;J1939 DBC
+61924;High Voltage Energy Storage Pack 6 Module Status 1;J1939 DBC
+61925;High Voltage Energy Storage Pack 6 Thermal Management System Status 1;J1939 DBC
+61926;High Voltage Energy Storage Pack 6 Data 8;J1939 DBC
+61927;High Voltage Energy Storage Pack 6 Data 9;J1939 DBC
+61928;High Voltage Energy Storage Pack 6 Data 10;J1939 DBC
+61929;High Voltage Energy Storage Pack 6 Data 11;J1939 DBC
+61930;Motor/Generator 3 Inverter Mode Feedback 1;J1939 DBC
+61931;Motor/Generator 3 Inverter Limits Active Power;J1939 DBC
+61932;Motor/Generator 3 Inverter Limits Active Mechanical;J1939 DBC
+61933;Motor/Generator 3 Inverter Limits Active DC Side;J1939 DBC
+61934;Motor/Generator 3 Inverter Low Voltage;J1939 DBC
+61935;Motor/Generator 3 Inverter Status 2;J1939 DBC
+61936;Motor/Generator 3 Inverter Rate Limits Active 1;J1939 DBC
+61937;Motor/Generator 4 Inverter Mode Feedback 1;J1939 DBC
+61938;Motor/Generator 4 Inverter Limits Active Power;J1939 DBC
+61939;Motor/Generator 4 Inverter Limits Active Mechanical;J1939 DBC
+61940;Motor/Generator 4 Inverter Limits Active DC Side;J1939 DBC
+61941;Motor/Generator 4 Inverter Low Voltage;J1939 DBC
+61942;Motor/Generator 4 Inverter Status 2;J1939 DBC
+61943;Motor/Generator 4 Inverter Rate Limits Active 1;J1939 DBC
+61944;Motor/Generator 5 Inverter Mode Feedback 1;J1939 DBC
+61945;Motor/Generator 5 Inverter Limits Active Power;J1939 DBC
+61946;Motor/Generator 5 Inverter Limits Active Mechanical;J1939 DBC
+61947;Motor/Generator 5 Inverter Limits Active DC Side;J1939 DBC
+61948;Motor/Generator 5 Inverter Low Voltage;J1939 DBC
+61949;Motor/Generator 5 Inverter Status 2;J1939 DBC
+61950;Motor/Generator 5 Inverter Rate Limits Active 1;J1939 DBC
+61951;Motor/Generator 6 Inverter Mode Feedback 1;J1939 DBC
+61952;Motor/Generator 6 Inverter Limits Active Power;J1939 DBC
+61953;Motor/Generator 6 Inverter Limits Active Mechanical;J1939 DBC
+61954;Motor/Generator 6 Inverter Limits Active DC Side;J1939 DBC
+61955;Motor/Generator 6 Inverter Low Voltage;J1939 DBC
+61956;Motor/Generator 6 Inverter Status 2;J1939 DBC
+61957;Motor/Generator 6 Inverter Rate Limits Active 1;J1939 DBC
+61958;Blind Spot Detection 1;J1939 DBC
+61959;Winch Information 1;J1939 DBC
+61960;Motor/Generator 3 Inverter Control;J1939 DBC
+61961;Motor/Generator 3 Inverter Rate Limits Request 1;J1939 DBC
+61962;Motor/Generator 4 Inverter Control;J1939 DBC
+61963;Motor/Generator 4 Inverter Rate Limits Request 1;J1939 DBC
+61964;Motor/Generator 5 Inverter Control;J1939 DBC
+61965;Motor/Generator 5 Inverter Rate Limits Request 1;J1939 DBC
+61966;Motor/Generator 6 Inverter Control;J1939 DBC
+61967;Motor/Generator 6 Inverter Rate Limits Request 1;J1939 DBC
+61972;High Voltage Energy Storage Pack 7 Status 2;J1939 DBC
+61973;High Voltage Energy Storage Pack 7 Data 1;J1939 DBC
+61974;High Voltage Energy Storage Pack 7 Data 2;J1939 DBC
+61975;High Voltage Energy Storage Pack 7 Data 3;J1939 DBC
+61976;High Voltage Energy Storage Pack 7 Data 4;J1939 DBC
+61977;High Voltage Energy Storage Pack 7 Data 5;J1939 DBC
+61978;High Voltage Energy Storage Pack 7 Data 6;J1939 DBC
+61979;High Voltage Energy Storage Pack 7 Status 1;J1939 DBC
+61980;High Voltage Energy Storage Pack 7 Data 7;J1939 DBC
+61981;High Voltage Energy Storage Pack 7 Module Status 1;J1939 DBC
+61982;High Voltage Energy Storage Pack 7 Thermal Management System Status 1;J1939 DBC
+61983;High Voltage Energy Storage Pack 7 Data 8;J1939 DBC
+61984;High Voltage Energy Storage Pack 7 Data 9;J1939 DBC
+61985;High Voltage Energy Storage Pack 7 Data 10;J1939 DBC
+61986;High Voltage Energy Storage Pack 7 Data 11;J1939 DBC
+61987;High Voltage Energy Storage Pack 8 Status 2;J1939 DBC
+61988;High Voltage Energy Storage Pack 8 Data 1;J1939 DBC
+61989;High Voltage Energy Storage Pack 8 Data 2;J1939 DBC
+61990;High Voltage Energy Storage Pack 8 Data 3;J1939 DBC
+61991;High Voltage Energy Storage Pack 8 Data 4;J1939 DBC
+61992;High Voltage Energy Storage Pack 8 Data 5;J1939 DBC
+61993;High Voltage Energy Storage Pack 8 Data 6;J1939 DBC
+61994;High Voltage Energy Storage Pack 8 Status 1;J1939 DBC
+61995;High Voltage Energy Storage Pack 8 Data 7;J1939 DBC
+61996;High Voltage Energy Storage Pack 8 Module Status 1;J1939 DBC
+61997;High Voltage Energy Storage Pack 8 Thermal Management System Status 1;J1939 DBC
+61998;High Voltage Energy Storage Pack 8 Data 8;J1939 DBC
+61999;High Voltage Energy Storage Pack 8 Data 9;J1939 DBC
+62000;High Voltage Energy Storage Pack 8 Data 10;J1939 DBC
+62001;High Voltage Energy Storage Pack 8 Data 11;J1939 DBC
+62002;High Voltage Energy Storage Pack 9 Status 2;J1939 DBC
+62003;High Voltage Energy Storage Pack 9 Data 1;J1939 DBC
+62004;High Voltage Energy Storage Pack 9 Data 2;J1939 DBC
+62005;High Voltage Energy Storage Pack 9 Data 3;J1939 DBC
+62006;High Voltage Energy Storage Pack 9 Data 4;J1939 DBC
+62007;High Voltage Energy Storage Pack 9 Data 5;J1939 DBC
+62008;High Voltage Energy Storage Pack 9 Data 6;J1939 DBC
+62009;High Voltage Energy Storage Pack 9 Status 1;J1939 DBC
+62010;High Voltage Energy Storage Pack 9 Data 7;J1939 DBC
+62011;High Voltage Energy Storage Pack 9 Module Status 1;J1939 DBC
+62012;High Voltage Energy Storage Pack 9 Thermal Management System Status 1;J1939 DBC
+62013;High Voltage Energy Storage Pack 9 Data 8;J1939 DBC
+62014;High Voltage Energy Storage Pack 9 Data 9;J1939 DBC
+62015;High Voltage Energy Storage Pack 9 Data 10;J1939 DBC
+62016;High Voltage Energy Storage Pack 9 Data 11;J1939 DBC
+62017;High Voltage Energy Storage Pack 10 Status 2;J1939 DBC
+62018;High Voltage Energy Storage Pack 10 Data 1;J1939 DBC
+62019;High Voltage Energy Storage Pack 10 Data 2;J1939 DBC
+62020;High Voltage Energy Storage Pack 10 Data 3;J1939 DBC
+62021;High Voltage Energy Storage Pack 10 Data 4;J1939 DBC
+62022;High Voltage Energy Storage Pack 10 Data 5;J1939 DBC
+62023;High Voltage Energy Storage Pack 10 Data 6;J1939 DBC
+62024;High Voltage Energy Storage Pack 10 Status 1;J1939 DBC
+62025;High Voltage Energy Storage Pack 10 Data 7;J1939 DBC
+62026;High Voltage Energy Storage Pack 10 Module Status 1;J1939 DBC
+62027;High Voltage Energy Storage Pack 10 Thermal Management System Status 1;J1939 DBC
+62028;High Voltage Energy Storage Pack 10 Data 8;J1939 DBC
+62029;High Voltage Energy Storage Pack 10 Data 9;J1939 DBC
+62030;High Voltage Energy Storage Pack 10 Data 10;J1939 DBC
+62031;High Voltage Energy Storage Pack 10 Data 11;J1939 DBC
+62032;Electronic Auxiliary Transmission Controller 1;J1939 DBC
+62033;High Voltage Energy Storage Pack 11 Status 2;J1939 DBC
+62034;High Voltage Energy Storage Pack 11 Data 1;J1939 DBC
+62035;High Voltage Energy Storage Pack 11 Data 2;J1939 DBC
+62036;High Voltage Energy Storage Pack 11 Data 3;J1939 DBC
+62037;High Voltage Energy Storage Pack 11 Data 4;J1939 DBC
+62038;High Voltage Energy Storage Pack 11 Data 5;J1939 DBC
+62039;High Voltage Energy Storage Pack 11 Data 6;J1939 DBC
+62040;High Voltage Energy Storage Pack 11 Status 1;J1939 DBC
+62041;High Voltage Energy Storage Pack 11 Data 7;J1939 DBC
+62042;High Voltage Energy Storage Pack 11 Module Status 1;J1939 DBC
+62043;High Voltage Energy Storage Pack 11 Thermal Management System Status 1;J1939 DBC
+62044;High Voltage Energy Storage Pack 11 Data 8;J1939 DBC
+62045;High Voltage Energy Storage Pack 11 Data 9;J1939 DBC
+62046;High Voltage Energy Storage Pack 11 Data 10;J1939 DBC
+62047;High Voltage Energy Storage Pack 11 Data 11;J1939 DBC
+62048;High Voltage Energy Storage Pack 12 Status 2;J1939 DBC
+62049;High Voltage Energy Storage Pack 12 Data 1;J1939 DBC
+62050;High Voltage Energy Storage Pack 12 Data 2;J1939 DBC
+62051;High Voltage Energy Storage Pack 12 Data 3;J1939 DBC
+62052;High Voltage Energy Storage Pack 12 Data 4;J1939 DBC
+62053;High Voltage Energy Storage Pack 12 Data 5;J1939 DBC
+62054;High Voltage Energy Storage Pack 12 Data 6;J1939 DBC
+62055;High Voltage Energy Storage Pack 12 Status 1;J1939 DBC
+62056;High Voltage Energy Storage Pack 12 Data 7;J1939 DBC
+62057;High Voltage Energy Storage Pack 12 Module Status 1;J1939 DBC
+62058;High Voltage Energy Storage Pack 12 Thermal Management System Status 1;J1939 DBC
+62059;High Voltage Energy Storage Pack 12 Data 8;J1939 DBC
+62060;High Voltage Energy Storage Pack 12 Data 9;J1939 DBC
+62061;High Voltage Energy Storage Pack 12 Data 10;J1939 DBC
+62062;High Voltage Energy Storage Pack 12 Data 11;J1939 DBC
+62063;High Voltage Energy Storage Pack 13 Status 2;J1939 DBC
+62064;High Voltage Energy Storage Pack 13 Data 1;J1939 DBC
+62065;High Voltage Energy Storage Pack 13 Data 2;J1939 DBC
+62066;High Voltage Energy Storage Pack 13 Data 3;J1939 DBC
+62067;High Voltage Energy Storage Pack 13 Data 4;J1939 DBC
+62068;High Voltage Energy Storage Pack 13 Data 5;J1939 DBC
+62069;High Voltage Energy Storage Pack 13 Data 6;J1939 DBC
+62070;High Voltage Energy Storage Pack 13 Status 1;J1939 DBC
+62071;High Voltage Energy Storage Pack 13 Data 7;J1939 DBC
+62072;High Voltage Energy Storage Pack 13 Module Status 1;J1939 DBC
+62073;High Voltage Energy Storage Pack 13 Thermal Management System Status 1;J1939 DBC
+62074;High Voltage Energy Storage Pack 13 Data 8;J1939 DBC
+62075;High Voltage Energy Storage Pack 13 Data 9;J1939 DBC
+62076;High Voltage Energy Storage Pack 13 Data 10;J1939 DBC
+62077;High Voltage Energy Storage Pack 13 Data 11;J1939 DBC
+62078;High Voltage Energy Storage Pack 14 Status 2;J1939 DBC
+62079;High Voltage Energy Storage Pack 14 Data 1;J1939 DBC
+62080;High Voltage Energy Storage Pack 14 Data 2;J1939 DBC
+62081;High Voltage Energy Storage Pack 14 Data 3;J1939 DBC
+62082;High Voltage Energy Storage Pack 14 Data 4;J1939 DBC
+62083;High Voltage Energy Storage Pack 14 Data 5;J1939 DBC
+62084;High Voltage Energy Storage Pack 14 Data 6;J1939 DBC
+62085;High Voltage Energy Storage Pack 14 Status 1;J1939 DBC
+62086;High Voltage Energy Storage Pack 14 Data 7;J1939 DBC
+62087;High Voltage Energy Storage Pack 14 Module Status 1;J1939 DBC
+62088;High Voltage Energy Storage Pack 14 Thermal Management System Status 1;J1939 DBC
+62089;High Voltage Energy Storage Pack 14 Data 8;J1939 DBC
+62090;High Voltage Energy Storage Pack 14 Data 9;J1939 DBC
+62091;High Voltage Energy Storage Pack 14 Data 10;J1939 DBC
+62092;High Voltage Energy Storage Pack 14 Data 11;J1939 DBC
+62093;High Voltage Energy Storage Pack 15 Status 2;J1939 DBC
+62094;High Voltage Energy Storage Pack 15 Data 1;J1939 DBC
+62095;High Voltage Energy Storage Pack 15 Data 2;J1939 DBC
+62096;High Voltage Energy Storage Pack 15 Data 3;J1939 DBC
+62097;High Voltage Energy Storage Pack 15 Data 4;J1939 DBC
+62098;High Voltage Energy Storage Pack 15 Data 5;J1939 DBC
+62099;High Voltage Energy Storage Pack 15 Data 6;J1939 DBC
+62100;High Voltage Energy Storage Pack 15 Status 1;J1939 DBC
+62101;High Voltage Energy Storage Pack 15 Data 7;J1939 DBC
+62102;High Voltage Energy Storage Pack 15 Module Status 1;J1939 DBC
+62103;High Voltage Energy Storage Pack 15 Thermal Management System Status 1;J1939 DBC
+62104;High Voltage Energy Storage Pack 15 Data 8;J1939 DBC
+62105;High Voltage Energy Storage Pack 15 Data 9;J1939 DBC
+62106;High Voltage Energy Storage Pack 15 Data 10;J1939 DBC
+62107;High Voltage Energy Storage Pack 15 Data 11;J1939 DBC
+62108;High Voltage Energy Storage Pack 16 Status 2;J1939 DBC
+62109;High Voltage Energy Storage Pack 16 Data 1;J1939 DBC
+62110;High Voltage Energy Storage Pack 16 Data 2;J1939 DBC
+62111;High Voltage Energy Storage Pack 16 Data 3;J1939 DBC
+62112;High Voltage Energy Storage Pack 16 Data 4;J1939 DBC
+62113;High Voltage Energy Storage Pack 16 Data 5;J1939 DBC
+62114;High Voltage Energy Storage Pack 16 Data 6;J1939 DBC
+62115;High Voltage Energy Storage Pack 16 Status 1;J1939 DBC
+62116;High Voltage Energy Storage Pack 16 Data 7;J1939 DBC
+62117;High Voltage Energy Storage Pack 16 Module Status 1;J1939 DBC
+62118;High Voltage Energy Storage Pack 16 Thermal Management System Status 1;J1939 DBC
+62119;High Voltage Energy Storage Pack 16 Data 8;J1939 DBC
+62120;High Voltage Energy Storage Pack 16 Data 9;J1939 DBC
+62121;High Voltage Energy Storage Pack 16 Data 10;J1939 DBC
+62122;High Voltage Energy Storage Pack 16 Data 11;J1939 DBC
+62123;High Voltage Energy Storage Pack 17 Status 2;J1939 DBC
+62124;High Voltage Energy Storage Pack 17 Data 1;J1939 DBC
+62125;High Voltage Energy Storage Pack 17 Data 2;J1939 DBC
+62126;High Voltage Energy Storage Pack 17 Data 3;J1939 DBC
+62127;High Voltage Energy Storage Pack 17 Data 4;J1939 DBC
+62128;High Voltage Energy Storage Pack 17 Data 5;J1939 DBC
+62129;High Voltage Energy Storage Pack 17 Data 6;J1939 DBC
+62130;High Voltage Energy Storage Pack 17 Status 1;J1939 DBC
+62131;High Voltage Energy Storage Pack 17 Data 7;J1939 DBC
+62132;High Voltage Energy Storage Pack 17 Module Status 1;J1939 DBC
+62133;High Voltage Energy Storage Pack 17 Thermal Management System Status 1;J1939 DBC
+62134;High Voltage Energy Storage Pack 17 Data 8;J1939 DBC
+62135;High Voltage Energy Storage Pack 17 Data 9;J1939 DBC
+62136;High Voltage Energy Storage Pack 17 Data 10;J1939 DBC
+62137;High Voltage Energy Storage Pack 17 Data 11;J1939 DBC
+62138;High Voltage Energy Storage Pack 18 Status 2;J1939 DBC
+62139;High Voltage Energy Storage Pack 18 Data 1;J1939 DBC
+62140;High Voltage Energy Storage Pack 18 Data 2;J1939 DBC
+62141;High Voltage Energy Storage Pack 18 Data 3;J1939 DBC
+62142;High Voltage Energy Storage Pack 18 Data 4;J1939 DBC
+62143;High Voltage Energy Storage Pack 18 Data 5;J1939 DBC
+62144;High Voltage Energy Storage Pack 18 Data 6;J1939 DBC
+62145;High Voltage Energy Storage Pack 18 Status 1;J1939 DBC
+62146;High Voltage Energy Storage Pack 18 Data 7;J1939 DBC
+62147;High Voltage Energy Storage Pack 18 Module Status 1;J1939 DBC
+62148;High Voltage Energy Storage Pack 18 Thermal Management System Status 1;J1939 DBC
+62149;High Voltage Energy Storage Pack 18 Data 8;J1939 DBC
+62150;High Voltage Energy Storage Pack 18 Data 9;J1939 DBC
+62151;High Voltage Energy Storage Pack 18 Data 10;J1939 DBC
+62152;High Voltage Energy Storage Pack 18 Data 11;J1939 DBC
+62153;High Voltage Energy Storage Pack 19 Status 2;J1939 DBC
+62154;High Voltage Energy Storage Pack 19 Data 1;J1939 DBC
+62155;High Voltage Energy Storage Pack 19 Data 2;J1939 DBC
+62156;High Voltage Energy Storage Pack 19 Data 3;J1939 DBC
+62157;High Voltage Energy Storage Pack 19 Data 4;J1939 DBC
+62158;High Voltage Energy Storage Pack 19 Data 5;J1939 DBC
+62159;High Voltage Energy Storage Pack 19 Data 6;J1939 DBC
+62160;High Voltage Energy Storage Pack 19 Status 1;J1939 DBC
+62161;High Voltage Energy Storage Pack 19 Data 7;J1939 DBC
+62162;High Voltage Energy Storage Pack 19 Module Status 1;J1939 DBC
+62163;High Voltage Energy Storage Pack 19 Thermal Management System Status 1;J1939 DBC
+62164;High Voltage Energy Storage Pack 19 Data 8;J1939 DBC
+62165;High Voltage Energy Storage Pack 19 Data 9;J1939 DBC
+62166;High Voltage Energy Storage Pack 19 Data 10;J1939 DBC
+62167;High Voltage Energy Storage Pack 19 Data 11;J1939 DBC
+62168;High Voltage Energy Storage Pack 20 Status 2;J1939 DBC
+62169;High Voltage Energy Storage Pack 20 Data 1;J1939 DBC
+62170;High Voltage Energy Storage Pack 20 Data 2;J1939 DBC
+62171;High Voltage Energy Storage Pack 20 Data 3;J1939 DBC
+62172;High Voltage Energy Storage Pack 20 Data 4;J1939 DBC
+62173;High Voltage Energy Storage Pack 20 Data 5;J1939 DBC
+62174;High Voltage Energy Storage Pack 20 Data 6;J1939 DBC
+62175;High Voltage Energy Storage Pack 20 Status 1;J1939 DBC
+62176;High Voltage Energy Storage Pack 20 Data 7;J1939 DBC
+62177;High Voltage Energy Storage Pack 20 Module Status 1;J1939 DBC
+62178;High Voltage Energy Storage Pack 20 Thermal Management System Status 1;J1939 DBC
+62179;High Voltage Energy Storage Pack 20 Data 8;J1939 DBC
+62180;High Voltage Energy Storage Pack 20 Data 9;J1939 DBC
+62181;High Voltage Energy Storage Pack 20 Data 10;J1939 DBC
+62182;High Voltage Energy Storage Pack 20 Data 11;J1939 DBC
+62183;High Voltage Energy Storage Pack 21 Status 2;J1939 DBC
+62184;High Voltage Energy Storage Pack 21 Data 1;J1939 DBC
+62185;High Voltage Energy Storage Pack 21 Data 2;J1939 DBC
+62186;High Voltage Energy Storage Pack 21 Data 3;J1939 DBC
+62187;High Voltage Energy Storage Pack 21 Data 4;J1939 DBC
+62188;High Voltage Energy Storage Pack 21 Data 5;J1939 DBC
+62189;High Voltage Energy Storage Pack 21 Data 6;J1939 DBC
+62190;High Voltage Energy Storage Pack 21 Status 1;J1939 DBC
+62191;High Voltage Energy Storage Pack 21 Data 7;J1939 DBC
+62192;High Voltage Energy Storage Pack 21 Module Status 1;J1939 DBC
+62193;High Voltage Energy Storage Pack 21 Thermal Management System Status 1;J1939 DBC
+62194;High Voltage Energy Storage Pack 21 Data 8;J1939 DBC
+62195;High Voltage Energy Storage Pack 21 Data 9;J1939 DBC
+62196;High Voltage Energy Storage Pack 21 Data 10;J1939 DBC
+62197;High Voltage Energy Storage Pack 21 Data 11;J1939 DBC
+62198;High Voltage Energy Storage Pack 22 Status 2;J1939 DBC
+62199;High Voltage Energy Storage Pack 22 Data 1;J1939 DBC
+62200;High Voltage Energy Storage Pack 22 Data 2;J1939 DBC
+62201;High Voltage Energy Storage Pack 22 Data 3;J1939 DBC
+62202;High Voltage Energy Storage Pack 22 Data 4;J1939 DBC
+62203;High Voltage Energy Storage Pack 22 Data 5;J1939 DBC
+62204;High Voltage Energy Storage Pack 22 Data 6;J1939 DBC
+62205;High Voltage Energy Storage Pack 22 Status 1;J1939 DBC
+62206;High Voltage Energy Storage Pack 22 Data 7;J1939 DBC
+62207;High Voltage Energy Storage Pack 22 Module Status 1;J1939 DBC
+62208;High Voltage Energy Storage Pack 22 Thermal Management System Status 1;J1939 DBC
+62209;High Voltage Energy Storage Pack 22 Data 8;J1939 DBC
+62210;High Voltage Energy Storage Pack 22 Data 9;J1939 DBC
+62211;High Voltage Energy Storage Pack 22 Data 10;J1939 DBC
+62212;High Voltage Energy Storage Pack 22 Data 11;J1939 DBC
+62213;High Voltage Energy Storage Pack 23 Status 2;J1939 DBC
+62214;High Voltage Energy Storage Pack 23 Data 1;J1939 DBC
+62215;High Voltage Energy Storage Pack 23 Data 2;J1939 DBC
+62216;High Voltage Energy Storage Pack 23 Data 3;J1939 DBC
+62217;High Voltage Energy Storage Pack 23 Data 4;J1939 DBC
+62218;High Voltage Energy Storage Pack 23 Data 5;J1939 DBC
+62219;High Voltage Energy Storage Pack 23 Data 6;J1939 DBC
+62220;High Voltage Energy Storage Pack 23 Status 1;J1939 DBC
+62221;High Voltage Energy Storage Pack 23 Data 7;J1939 DBC
+62222;High Voltage Energy Storage Pack 23 Module Status 1;J1939 DBC
+62223;High Voltage Energy Storage Pack 23 Thermal Management System Status 1;J1939 DBC
+62224;High Voltage Energy Storage Pack 23 Data 8;J1939 DBC
+62225;High Voltage Energy Storage Pack 23 Data 9;J1939 DBC
+62226;High Voltage Energy Storage Pack 23 Data 10;J1939 DBC
+62227;High Voltage Energy Storage Pack 23 Data 11;J1939 DBC
+62228;High Voltage Energy Storage Pack 24 Status 2;J1939 DBC
+62229;High Voltage Energy Storage Pack 24 Data 1;J1939 DBC
+62230;High Voltage Energy Storage Pack 24 Data 2;J1939 DBC
+62231;High Voltage Energy Storage Pack 24 Data 3;J1939 DBC
+62232;High Voltage Energy Storage Pack 24 Data 4;J1939 DBC
+62233;High Voltage Energy Storage Pack 24 Data 5;J1939 DBC
+62234;High Voltage Energy Storage Pack 24 Data 6;J1939 DBC
+62235;High Voltage Energy Storage Pack 24 Status 1;J1939 DBC
+62236;High Voltage Energy Storage Pack 24 Data 7;J1939 DBC
+62237;High Voltage Energy Storage Pack 24 Module Status 1;J1939 DBC
+62238;High Voltage Energy Storage Pack 24 Thermal Management System Status 1;J1939 DBC
+62239;High Voltage Energy Storage Pack 24 Data 8;J1939 DBC
+62240;High Voltage Energy Storage Pack 24 Data 9;J1939 DBC
+62241;High Voltage Energy Storage Pack 24 Data 10;J1939 DBC
+62242;High Voltage Energy Storage Pack 24 Data 11;J1939 DBC
+62243;High Voltage Energy Storage Pack 25 Status 2;J1939 DBC
+62244;High Voltage Energy Storage Pack 25 Data 1;J1939 DBC
+62245;High Voltage Energy Storage Pack 25 Data 2;J1939 DBC
+62246;High Voltage Energy Storage Pack 25 Data 3;J1939 DBC
+62247;High Voltage Energy Storage Pack 25 Data 4;J1939 DBC
+62248;High Voltage Energy Storage Pack 25 Data 5;J1939 DBC
+62249;High Voltage Energy Storage Pack 25 Data 6;J1939 DBC
+62250;High Voltage Energy Storage Pack 25 Status 1;J1939 DBC
+62251;High Voltage Energy Storage Pack 25 Data 7;J1939 DBC
+62252;High Voltage Energy Storage Pack 25 Module Status 1;J1939 DBC
+62253;High Voltage Energy Storage Pack 25 Thermal Management System Status 1;J1939 DBC
+62254;High Voltage Energy Storage Pack 25 Data 8;J1939 DBC
+62255;High Voltage Energy Storage Pack 25 Data 9;J1939 DBC
+62256;High Voltage Energy Storage Pack 25 Data 10;J1939 DBC
+62257;High Voltage Energy Storage Pack 25 Data 11;J1939 DBC
+62258;High Voltage Energy Storage Pack 26 Status 2;J1939 DBC
+62259;High Voltage Energy Storage Pack 26 Data 1;J1939 DBC
+62260;High Voltage Energy Storage Pack 26 Data 2;J1939 DBC
+62261;High Voltage Energy Storage Pack 26 Data 3;J1939 DBC
+62262;High Voltage Energy Storage Pack 26 Data 4;J1939 DBC
+62263;High Voltage Energy Storage Pack 26 Data 5;J1939 DBC
+62264;High Voltage Energy Storage Pack 26 Data 6;J1939 DBC
+62265;High Voltage Energy Storage Pack 26 Status 1;J1939 DBC
+62266;High Voltage Energy Storage Pack 26 Data 7;J1939 DBC
+62267;High Voltage Energy Storage Pack 26 Module Status 1;J1939 DBC
+62268;High Voltage Energy Storage Pack 26 Thermal Management System Status 1;J1939 DBC
+62269;High Voltage Energy Storage Pack 26 Data 8;J1939 DBC
+62270;High Voltage Energy Storage Pack 26 Data 9;J1939 DBC
+62271;High Voltage Energy Storage Pack 26 Data 10;J1939 DBC
+62272;High Voltage Energy Storage Pack 26 Data 11;J1939 DBC
+62273;External Steering Request;J1939 DBC
+62274;Active Steering System Controller 2;J1939 DBC
+62275;Electronic Park Brake Controller 1;J1939 DBC
+62276;Electronic Park Brake Controller 2;J1939 DBC
+62277;Genset Frequency Limitation;J1939 DBC (2022-08)
+62278;Genset Power Limitation;J1939 DBC (2022-08)
+62279;Genset Real Power Control;J1939 DBC (2022-08)
+62282;Genset Real Power Setpoint Demand;J1939 DBC (2022-08)
+62283;Genset Real Power Control 2;J1939 DBC (2022-08)
+62284;High Voltage Energy Storage Pack 1 Data 12;J1939 DBC (2022-08)
+62285;High Voltage Energy Storage Pack 1 Data 13;J1939 DBC (2022-08)
+62286;High Voltage Energy Storage Pack 2 Data 12;J1939 DBC (2022-08)
+62287;High Voltage Energy Storage Pack 2 Data 13;J1939 DBC (2022-08)
+62288;High Voltage Energy Storage Pack 3 Data 12;J1939 DBC (2022-08)
+62289;High Voltage Energy Storage Pack 3 Data 13;J1939 DBC (2022-08)
+62290;High Voltage Energy Storage Pack 4 Data 12;J1939 DBC (2022-08)
+62291;High Voltage Energy Storage Pack 4 Data 13;J1939 DBC (2022-08)
+62292;High Voltage Energy Storage Pack 5 Data 12;J1939 DBC (2022-08)
+62293;High Voltage Energy Storage Pack 5 Data 13;J1939 DBC (2022-08)
+62294;High Voltage Energy Storage Pack 6 Data 12;J1939 DBC (2022-08)
+62295;High Voltage Energy Storage Pack 6 Data 13;J1939 DBC (2022-08)
+62296;High Voltage Energy Storage Pack 7 Data 12;J1939 DBC (2022-08)
+62297;High Voltage Energy Storage Pack 7 Data 13;J1939 DBC (2022-08)
+62298;High Voltage Energy Storage Pack 8 Data 12;J1939 DBC (2022-08)
+62299;High Voltage Energy Storage Pack 8 Data 13;J1939 DBC (2022-08)
+62300;High Voltage Energy Storage Pack 9 Data 12;J1939 DBC (2022-08)
+62301;High Voltage Energy Storage Pack 9 Data 13;J1939 DBC (2022-08)
+62302;High Voltage Energy Storage Pack 10 Data 12;J1939 DBC (2022-08)
+62303;High Voltage Energy Storage Pack 10 Data 13;J1939 DBC (2022-08)
+62304;High Voltage Energy Storage Pack 11 Data 12;J1939 DBC (2022-08)
+62305;High Voltage Energy Storage Pack 11 Data 13;J1939 DBC (2022-08)
+62306;High Voltage Energy Storage Pack 12 Data 12;J1939 DBC (2022-08)
+62307;High Voltage Energy Storage Pack 12 Data 13;J1939 DBC (2022-08)
+64036;High Voltage Energy Storage System Data 12;J1939 DBC (2022-08)
+64037;High Voltage Energy Storage System Data 13;J1939 DBC (2022-08)
+64038;High Voltage Energy Storage System Data 14;J1939 DBC (2022-08)
+64039;High Voltage Energy Storage Pack 1 Internal Status 1;J1939 DBC (2022-08)
+64040;High Voltage Energy Storage Pack 2 Internal Status 1;J1939 DBC (2022-08)
+64041;High Voltage Energy Storage Pack 3 Internal Status 1;J1939 DBC (2022-08)
+64042;High Voltage Energy Storage Pack 4 Internal Status 1;J1939 DBC (2022-08)
+64043;High Voltage Energy Storage Pack 5 Internal Status 1;J1939 DBC (2022-08)
+64044;High Voltage Energy Storage Pack 6 Internal Status 1;J1939 DBC (2022-08)
+64045;High Voltage Energy Storage Pack 7 Internal Status 1;J1939 DBC (2022-08)
+64046;High Voltage Energy Storage Pack 8 Internal Status 1;J1939 DBC (2022-08)
+64047;High Voltage Energy Storage Pack 9 Internal Status 1;J1939 DBC (2022-08)
+64048;High Voltage Energy Storage Pack 10 Internal Status 1;J1939 DBC (2022-08)
+64049;High Voltage Energy Storage Pack 11 Internal Status 1;J1939 DBC (2022-08)
+64050;High Voltage Energy Storage Pack 12 Internal Status 1;J1939 DBC (2022-08)
+64053;Refuse Truck Body Information;J1939 DBC (2022-08)
+64054;Engine Fluid Level/Pressure 14;J1939 DBC (2022-08)
+64055;Well Stimulation Transmission Control Configuration;J1939 DBC (2022-08)
+64056;Well Stimulation Pump Protection System Configuration Command 1;J1939 DBC (2022-08)
+64057;Well Stimulation Pump Protection System Configuration Command 2;J1939 DBC (2022-08)
+64058;Electric PTO Drive Engagement 1;J1939 DBC (2022-08)
+64059;Electric PTO 1 Information;J1939 DBC (2022-08)
+64060;Engine Exhaust O2 Sensor Information;J1939 DBC (2022-08)
+64061;Gaseous Fuel Supply Pressure 3;J1939 DBC (2022-08)
+64062;Traffic Signage;J1939 DBC (2022-08)
+64063;Engine Configuration 4;J1939 DBC (2022-08)
+64068;Engine Speed/Load Factor Information 2;J1939 DBC
+64069;Generator Trip Energy 2;J1939 DBC
+64070;Security System Machine Operation Information;J1939 DBC
+64071;Engine Fuel Actuator Service Mode;J1939 DBC
+64072;Steering Wheel Controls;J1939 DBC
+64073;Park Assist;J1939 DBC
+64075;Aftertreatment 2 SCR Dosing System Information 5;J1939 DBC
+64076;Aftertreatment 1 SCR Dosing System Information 5;J1939 DBC
+64077;EV Economy Information;J1939 DBC
+64078;Automated Driving System Status 2;J1939 DBC
+64079;Automated Driving System Control 3;J1939 DBC
+64080;Aftercooler Valve;J1939 DBC
+64081;Engine Radiator 1;J1939 DBC
+64082;Engine Radiator 2;J1939 DBC
+64083;Genset Enclosure Ventilation;J1939 DBC
+64084;Heat Exchanger 1;J1939 DBC
+64085;Heat Exchanger 2;J1939 DBC
+64086;Heat Exchanger 3;J1939 DBC
+64087;Heat Exchanger 4;J1939 DBC
+64088;Engine Exhaust Gas Heat Exchanger;J1939 DBC
+64089;Genset Enclosure Ventilation Louver;J1939 DBC
+64090;Genset External Coolant System;J1939 DBC
+64091;EV DC Status 1;J1939 DBC
+64092;EVSE 1 DC Charging Limits 3;J1939 DBC
+64093;EVSE 1 Power Max Schedule;J1939 DBC
+64094;EV Charge Profile;J1939 DBC
+64095;EV DC Charging Limits 2;J1939 DBC
+64096;EV DC Charging In Progress;J1939 DBC
+64098;Lighting Data 2;J1939 DBC
+64099;Lighting Command 2;J1939 DBC
+64100;Aftertreatment System Information 5;J1939 DBC
+64101;Aftertreatment System Information 4;J1939 DBC
+64102;Aftertreatment System Information 3;J1939 DBC
+64103;Fluid Resistance 1;J1939 DBC
+64104;Power Converter 2 Isolation Integrity Request;J1939 DBC
+64105;Power Converter 1 Isolation Integrity Request;J1939 DBC
+64106;Power Converter 2 Limits Request Power;J1939 DBC
+64107;Power Converter 2 Limits Request Electrical;J1939 DBC
+64108;Power Converter 2 Limits Request DC Energy Source 1;J1939 DBC
+64109;Power Converter 1 Limits Request DC Energy Source 1;J1939 DBC
+64110;Power Converter 1 Limits Request Electrical;J1939 DBC
+64111;Power Converter 1 Limits Request Power;J1939 DBC
+64112;Inverter 1 Lifetime Data;J1939 DBC
+64113;Inverter 2 Lifetime Data;J1939 DBC
+64114;Power Converter 2 Active Power Limits;J1939 DBC
+64115;Power Converter 1 Active Power Limits;J1939 DBC
+64116;Power Converter 2 Reference 1;J1939 DBC
+64117;Power Converter 2 Reference 2;J1939 DBC
+64118;Power Converter 2 Temperature;J1939 DBC
+64119;Power Converter 1 Temperature;J1939 DBC
+64120;Power Converter 1 Reference 2;J1939 DBC
+64121;Power Converter 1 Reference 1;J1939 DBC
+64122;Power Converter 1 Phase Current;J1939 DBC
+64123;Power Converter 2 Phase Current;J1939 DBC
+64124;Power Converter 1 Phase Voltage;J1939 DBC
+64125;Power Converter 2 Phase Voltage;J1939 DBC
+64126;Power Converter Power Module Switch Temperatures;J1939 DBC
+64127;Power Converter 1 Power Module Switch Power Supply Voltage;J1939 DBC
+64128;Power Converter 2 Power Module Switch Power Supply Voltage;J1939 DBC
+64129;Power Converter Totals 1;J1939 DBC
+64130;Transformer Temperatures;J1939 DBC
+64131;Electrified Accessory Engine Coolant Pump Status;J1939 DBC
+64132;High Voltage Energy Storage Pack 11 History;J1939 DBC
+64133;High Voltage Energy Storage Pack 11 Configuration;J1939 DBC
+64134;High Voltage Energy Storage Pack 12 History;J1939 DBC
+64135;High Voltage Energy Storage Pack 12 Configuration;J1939 DBC
+64136;High Voltage Energy Storage Pack 13 History;J1939 DBC
+64137;High Voltage Energy Storage Pack 13 Configuration;J1939 DBC
+64138;High Voltage Energy Storage Pack 14 History;J1939 DBC
+64139;High Voltage Energy Storage Pack 14 Configuration;J1939 DBC
+64140;High Voltage Energy Storage Pack 15 History;J1939 DBC
+64141;High Voltage Energy Storage Pack 15 Configuration;J1939 DBC
+64142;High Voltage Energy Storage Pack 16 History;J1939 DBC
+64143;High Voltage Energy Storage Pack 16 Configuration;J1939 DBC
+64144;High Voltage Energy Storage Pack 17 History;J1939 DBC
+64145;High Voltage Energy Storage Pack 17 Configuration;J1939 DBC
+64146;High Voltage Energy Storage Pack 18 History;J1939 DBC
+64147;High Voltage Energy Storage Pack 18 Configuration;J1939 DBC
+64148;High Voltage Energy Storage Pack 19 History;J1939 DBC
+64149;High Voltage Energy Storage Pack 19 Configuration;J1939 DBC
+64150;High Voltage Energy Storage Pack 20 History;J1939 DBC
+64151;High Voltage Energy Storage Pack 20 Configuration;J1939 DBC
+64152;High Voltage Energy Storage Pack 21 History;J1939 DBC
+64153;High Voltage Energy Storage Pack 21 Configuration;J1939 DBC
+64154;High Voltage Energy Storage Pack 22 History;J1939 DBC
+64155;High Voltage Energy Storage Pack 22 Configuration;J1939 DBC
+64156;High Voltage Energy Storage Pack 23 History;J1939 DBC
+64157;High Voltage Energy Storage Pack 23 Configuration;J1939 DBC
+64158;High Voltage Energy Storage Pack 24 History;J1939 DBC
+64159;High Voltage Energy Storage Pack 24 Configuration;J1939 DBC
+64160;High Voltage Energy Storage Pack 25 History;J1939 DBC
+64161;High Voltage Energy Storage Pack 25 Configuration;J1939 DBC
+64162;High Voltage Energy Storage Pack 26 History;J1939 DBC
+64163;High Voltage Energy Storage Pack 26 Configuration;J1939 DBC
+64164;Automated Driving System Control 2;J1939 DBC
+64165;Duel Fuel Mode 3;J1939 DBC
+64166;Duel Fuel Mode 2;J1939 DBC
+64167;Dual Fuel Mode 1;J1939 DBC
+64168;Transmission 1 History;J1939 DBC
+64169;Transmission Shaft Twist Information;J1939 DBC
+64170;Electronic Auxiliary Transmission Controller 2;J1939 DBC
+64171;High Voltage Energy Storage Pack 10 Configuration;J1939 DBC
+64172;High Voltage Energy Storage Pack 10 History;J1939 DBC
+64173;High Voltage Energy Storage Pack 9 Configuration;J1939 DBC
+64174;High Voltage Energy Storage Pack 9 History;J1939 DBC
+64175;High Voltage Energy Storage Pack 8 Configuration;J1939 DBC
+64176;High Voltage Energy Storage Pack 8 History;J1939 DBC
+64177;High Voltage Energy Storage Pack 7 Configuration;J1939 DBC
+64178;High Voltage Energy Storage Pack 7 History;J1939 DBC
+64180;EV DC Charging Limits 1;J1939 DBC
+64181;EVSE 1 DC Charging Limits 1;J1939 DBC
+64182;EVSE 1 DC Charging Limits 2;J1939 DBC
+64183;EV DC Charging Target;J1939 DBC
+64184;EVSE 1 DC Status 1;J1939 DBC
+64185;EVSE 1 Contactor Cmd 1;J1939 DBC
+64186;EVSE 1 Contactor Status 1;J1939 DBC
+64187;Direct Lamp Control Command 3;J1939 DBC
+64188;Direct Lamp Control Data 3;J1939 DBC
+64189;Motor/Generator 1 Lifetime Data;J1939 DBC
+64190;Motor/Generator 2 Lifetime Data;J1939 DBC
+64191;Motor/Generator 3 Lifetime Data;J1939 DBC
+64192;Motor/Generator 4 Lifetime Data;J1939 DBC
+64193;Motor/Generator 5 Lifetime Data;J1939 DBC
+64194;Motor/Generator 6 Lifetime Data;J1939 DBC
+64195;Air Supply Pressure 3;J1939 DBC
+64196;EVSE 1 AC Supply Voltage;J1939 DBC
+64197;EVSE1 AC 3-Phase Load;J1939 DBC
+64198;Electronic Retarder Controller 3;J1939 DBC
+64200;Electronic Transmission Controller 14;J1939 DBC
+64205;Aftertreatment 1 SCR Exhaust Gas Pressures 2;J1939 DBC
+64206;PTO Information 2;J1939 DBC
+64207;EVCC1 Diagnostic Data 1;J1939 DBC
+64208;Cab Door Control 2;J1939 DBC
+64209;Engine Average Information 2;J1939 DBC
+64210;Turbocharger Information 9;J1939 DBC
+64211;Automated Driving System Control 1;J1939 DBC
+64212;EVSE 1 AC Status 2;J1939 DBC
+64213;EVSE 1 AC Status 1;J1939 DBC
+64214;EVSE 1 Status 1;J1939 DBC
+64237;Temperature Sensing Module 1;J1939 DBC
+64238;Temperature Sensing Module 2;J1939 DBC
+64239;Aftertreatment 2 SCR Service Information 3;J1939 DBC
+64240;Aftertreatment 1 SCR Service Information 3;J1939 DBC
+64241;PSA Times Lifetime Hours;J1939 DBC
+64242;PSA Times Stored 100 Hours;J1939 DBC
+64243;PSA Times Active 100 Hours;J1939 DBC
+64244;Hybrid Charge Depleting or Increasing Operation Lifetime Hours;J1939 DBC
+64245;Hybrid Charge Depleting or Increasing Operation Stored 100 Hours;J1939 DBC
+64246;Hybrid Charge Depleting or Increasing Operation Active 100 Hours;J1939 DBC
+64247;Aftertreatment 1 Historical Information 3;J1939 DBC
+64249;Aftertreatment 1 SCR 2 NOx Mass and NH3 Storage;J1939 DBC
+64250;Aftertreatment 1 SCR 1 NOx Mass and NH3 Storage;J1939 DBC
+64251;Evaporative System Pressure and Control;J1939 DBC
+64252;GHG Tracking Lifetime Array Data;J1939 DBC
+64253;GHG Tracking Stored 100 Hour Array Data;J1939 DBC
+64254;GHG Tracking Active 100 Hour Array Data;J1939 DBC
+64258;NOx Tracking Engine Activity Lifetime Fuel Consumption Bins;J1939 DBC
+64259;NOx Tracking Engine Activity Lifetime Engine Run Time Bins;J1939 DBC
+64260;NOx Tracking Engine Activity Lifetime Vehicle Distance Bins;J1939 DBC
+64261;NOx Tracking Engine Activity Lifetime Engine Output Energy Bins;J1939 DBC
+64262;NOx Tracking Valid NOx Lifetime Fuel Consumption Bins;J1939 DBC
+64263;NOx Tracking Valid NOx Lifetime Engine Run Time Bins;J1939 DBC
+64264;NOx Tracking Valid NOx Lifetime Vehicle Distance Bins;J1939 DBC
+64265;NOx Tracking Valid NOx Lifetime Engine Output Energy Bins;J1939 DBC
+64266;NOx Tracking Valid NOx Lifetime Engine Out NOx Mass Bins;J1939 DBC
+64267;NOx Tracking Valid NOx Lifetime System Out NOx Mass Bins;J1939 DBC
+64268;NOx Tracking Stored 100 Hour Fuel Consumption Bins;J1939 DBC
+64269;NOx Tracking Stored 100 Hour Engine Run Time Bins;J1939 DBC
+64270;NOx Tracking Stored 100 Hour Vehicle Distance Bins;J1939 DBC
+64271;NOx Tracking Stored 100 Hour Engine Output Energy Bins;J1939 DBC
+64272;NOx Tracking Stored 100 Hour Engine Out NOx Mass Bins;J1939 DBC
+64273;NOx Tracking Stored 100 Hour System Out NOx Mass Bins;J1939 DBC
+64274;NOx Tracking Active 100 Hour Fuel Consumption Bins;J1939 DBC
+64275;NOx Tracking Active 100 Hour Engine Run Time Bins;J1939 DBC
+64276;NOx Tracking Active 100 Hour Vehicle Distance Bins;J1939 DBC
+64277;NOx Tracking Active 100 Hour Engine Output Energy Bins;J1939 DBC
+64278;NOx Tracking Active 100 Hour Engine Out NOx Mass Bins;J1939 DBC
+64279;NOx Tracking Active 100 Hour System Out NOx Mass Bins;J1939 DBC
+64280;Motor/Generator 6 Inverter Control 2;J1939 DBC
+64281;Motor/Generator 6 Inverter Limits Request Power;J1939 DBC
+64282;Motor/Generator 6 Inverter Limits Request Mechanical;J1939 DBC
+64283;Motor/Generator 6 Inverter Limits Request DC Side;J1939 DBC
+64284;Motor/Generator 6 Inverter Isolation Integrity Request;J1939 DBC
+64285;Motor/Generator 5 Inverter Control 2;J1939 DBC
+64286;Motor/Generator 5 Inverter Limits Request Power;J1939 DBC
+64287;Motor/Generator 5 Inverter Limits Request Mechanical;J1939 DBC
+64288;Motor/Generator 5 Inverter Limits Request DC Side;J1939 DBC
+64289;Motor/Generator 5 Inverter Isolation Integrity Request;J1939 DBC
+64290;Motor/Generator 4 Inverter Control 2;J1939 DBC
+64291;Motor/Generator 4 Inverter Limits Request Power;J1939 DBC
+64292;Motor/Generator 4 Inverter Limits Request Mechanical;J1939 DBC
+64293;Motor/Generator 4 Inverter Limits Request DC Side;J1939 DBC
+64294;Motor/Generator 4 Inverter Isolation Integrity Request;J1939 DBC
+64295;Motor/Generator 3 Inverter Control 2;J1939 DBC
+64296;Motor/Generator 3 Inverter Limits Request Power;J1939 DBC
+64297;Motor/Generator 3 Inverter Limits Request Mechanical;J1939 DBC
+64298;Motor/Generator 3 Inverter Limits Request DC Side;J1939 DBC
+64299;Motor/Generator 3 Inverter Isolation Integrity Request;J1939 DBC
+64301;Turbocharger Information 8;J1939 DBC
+64302;Winch Information 2;J1939 DBC
+64303;Motor/Generator 6 Inverter Reference 1;J1939 DBC
+64304;Motor/Generator 6 Inverter Status 1;J1939 DBC
+64305;Motor/Generator 6 Inverter Reference 2;J1939 DBC
+64306;Motor/Generator 6 Inverter Temperature;J1939 DBC
+64307;Motor/Generator 6 Inverter Motor Temperature;J1939 DBC
+64308;Motor/Generator 6 Inverter Isolation Integrity;J1939 DBC
+64309;Motor/Generator 6 Inverter Active Power Limits;J1939 DBC
+64310;Motor/Generator 5 Inverter Reference 1;J1939 DBC
+64311;Motor/Generator 5 Inverter Status 1;J1939 DBC
+64312;Motor/Generator 5 Inverter Reference 2;J1939 DBC
+64313;Motor/Generator 5 Inverter Temperature;J1939 DBC
+64314;Motor/Generator 5 Inverter Motor Temperature;J1939 DBC
+64315;Motor/Generator 5 Inverter Isolation Integrity;J1939 DBC
+64316;Motor/Generator 5 Inverter Active Power Limits;J1939 DBC
+64317;Motor/Generator 4 Inverter Reference 1;J1939 DBC
+64318;Motor/Generator 4 Inverter Status 1;J1939 DBC
+64319;Motor/Generator 4 Inverter Reference 2;J1939 DBC
+64320;Motor/Generator 4 Inverter Temperature;J1939 DBC
+64321;Motor/Generator 4 Inverter Motor Temperature;J1939 DBC
+64322;Motor/Generator 4 Inverter Isolation Integrity;J1939 DBC
+64323;Motor/Generator 4 Inverter Active Power Limits;J1939 DBC
+64324;Motor/Generator 3 Inverter Reference 1;J1939 DBC
+64325;Motor/Generator 3 Inverter Status 1;J1939 DBC
+64326;Motor/Generator 3 Inverter Reference 2;J1939 DBC
+64327;Motor/Generator 3 Inverter Temperature;J1939 DBC
+64328;Motor/Generator 3 Inverter Motor Temperature;J1939 DBC
+64329;Motor/Generator 3 Inverter Isolation Integrity;J1939 DBC
+64330;Motor/Generator 3 Inverter Active Power Limits;J1939 DBC
+64331;Automated Driving System Status 1;J1939 DBC
+64332;Cab Climate System Information 2;J1939 DBC
+64333;Maintenance Information;J1939 DBC
+64334;Hoist Control Information;J1939 DBC
+64335;High Voltage Energy Storage Pack 6 History;J1939 DBC
+64336;High Voltage Energy Storage Pack 6 Configuration;J1939 DBC
+64337;High Voltage Energy Storage Pack 5 History;J1939 DBC
+64338;High Voltage Energy Storage Pack 5 Configuration;J1939 DBC
+64339;High Voltage Energy Storage Pack 4 History;J1939 DBC
+64340;High Voltage Energy Storage Pack 4 Configuration;J1939 DBC
+64341;High Voltage Energy Storage Pack 3 History;J1939 DBC
+64342;High Voltage Energy Storage Pack 3 Configuration;J1939 DBC
+64343;High Voltage Energy Storage Pack 2 History;J1939 DBC
+64344;High Voltage Energy Storage Pack 2 Configuration;J1939 DBC
+64345;High Voltage Energy Storage Pack 1 History;J1939 DBC
+64346;High Voltage Energy Storage Pack 1 Configuration;J1939 DBC
+64347;Vehicle Fire Suppression System Module 1 Detector Data;J1939 DBC
+64348;Vehicle Fire Suppression System Module 2 Detector Data;J1939 DBC
+64349;Vehicle Fire Suppression System Module 3 Detector Data;J1939 DBC
+64350;Vehicle Fire Suppression System Module 4 Detector Data;J1939 DBC
+64351;Vehicle Fire Suppression System Module 1 Auxilliary Data;J1939 DBC
+64352;Vehicle Fire Suppression System Module 2 Auxilliary Data;J1939 DBC
+64353;Vehicle Fire Suppression System Module 3 Auxilliary Data;J1939 DBC
+64354;Vehicle Fire Suppression System Module 4 Auxilliary Data;J1939 DBC
+64355;Vehicle Fire Suppression System Module 1 Names;J1939 DBC
+64356;Vehicle Fire Suppression System Module 2 Names;J1939 DBC
+64357;Vehicle Fire Suppression System Module 3 Names;J1939 DBC
+64358;Vehicle Fire Suppression System Module 4 Names;J1939 DBC
+64359;Motor/Generator 2 Inverter Active Power Limits;J1939 DBC
+64360;Motor/Generator 2 Inverter Isolation Integrity;J1939 DBC
+64361;Motor/Generator 1 Inverter Active Power Limits;J1939 DBC
+64362;Motor/Generator 1 Inverter Isolation Integrity;J1939 DBC
+64363;High Voltage Bus Information;J1939 DBC
+64364;Motor/Generator 2 Inverter Reference 1;J1939 DBC
+64365;Motor/Generator 2 Inverter Status 1;No
+64366;Motor/Generator 2 Inverter Reference 2;J1939 DBC
+64367;Motor/Generator 2 Inverter Temperature;J1939 DBC
+64368;Motor/Generator 2 Inverter Motor Temperature;J1939 DBC
+64369;Motor/Generator 1 Inverter Motor Temperature;J1939 DBC
+64370;Motor/Generator 1 Inverter Temperature;J1939 DBC
+64371;Motor/Generator 1 Inverter Reference 2;J1939 DBC
+64372;Motor/Generator 1 Inverter Status 1;No
+64373;Motor/Generator 1 Inverter Reference 1;J1939 DBC
+64374;Personnel Detect Status;J1939 DBC
+64375;Engine Cylinder Pressure Gamma 1;J1939 DBC
+64376;Engine Cylinder Pressure Gamma 2;J1939 DBC
+64377;Engine Cylinder Pressure Gamma 3;J1939 DBC
+64378;Engine Cylinder Pressure Gamma 4;J1939 DBC
+64379;Engine Cylinder Pressure Gamma 5;J1939 DBC
+64380;Reserved for Network Operation Mode;No
+64381;Electrified Accessory Generator Coolant Pump Status;J1939 DBC
+64382;Electrified Accessory Generator Coolant Fan Status;J1939 DBC
+64383;Well Stimulation Pump System Filter Information;J1939 DBC
+64384;PTO Governor Configuration;J1939 DBC
+64385;On Board Programming 2;J1939 DBC
+64386;Primary or Rear Hitch Yaw;ISOBUS DBC (2022-08)
+64387;Secondary or Front Hitch Yaw;ISOBUS DBC (2022-08)
+64388;Operator Status;ISOBUS DBC (2022-08)
+64389;Engine Idle Management Information;J1939 DBC
+64390;Alcohol Interlock To Vehicle;No
+64391;Vehicle To Alcohol Interlock;No
+64392;Marine Control Information 3;J1939 DBC
+64393;Engine Fluid Level/Pressure 13;J1939 DBC
+64394;High Voltage Energy Storage 1 Data 11;J1939 DBC
+64395;Economy Mode Inactive Hours;J1939 DBC
+64396;Economy Mode Estimated Instantaneous Fuel Savings Rate;J1939 DBC
+64397;Economy Mode Active Hours;J1939 DBC
+64398;Economy Mode Fuel Used;J1939 DBC
+64399;Economy Mode Estimated Fuel Savings;J1939 DBC
+64400;DC/DC Converter 4 Voltage;J1939 DBC
+64401;DC/DC Converter 3 Voltage;J1939 DBC
+64402;DC/DC Converter 2 Voltage;J1939 DBC
+64403;DC/DC Converter 1 Voltage;J1939 DBC
+64404;Electronic Engine Controller 22;J1939 DBC
+64405;Engine Hours 2;J1939 DBC
+64406;Engine Information 3;J1939 DBC
+64407;Vehicle Electrical Power 15;J1939 DBC
+64408;Exhaust Oxygen 2;J1939 DBC
+64409;DC/AC Accessory Inverter 1 Temperatures;J1939 DBC
+64410;DC/AC Accessory Inverter 1 DC Side Limits;J1939 DBC
+64411;DC/AC Accessory Inverter 1 AC Side Limits;J1939 DBC
+64412;DC/AC Accessory Inverter 1 Configuration 1;J1939 DBC
+64413;DC/AC Accessory Inverter 1 Lifetime Data;J1939 DBC
+64414;DC/AC Accessory Inverter 2 Temperatures;J1939 DBC
+64415;DC/AC Accessory Inverter 2 DC Side Limits;J1939 DBC
+64416;DC/AC Accessory Inverter 2 AC Side Limits;J1939 DBC
+64417;DC/AC Accessory Inverter 2 Configuration 1;J1939 DBC
+64418;DC/AC Accessory Inverter 2 Lifetime Data;J1939 DBC
+64419;DC/AC Accessory Inverter 3 Temperatures;J1939 DBC
+64420;DC/AC Accessory Inverter 3 DC Side Limits;J1939 DBC
+64421;DC/AC Accessory Inverter 3 AC Side Limits;J1939 DBC
+64422;DC/AC Accessory Inverter 3 Configuration 1;J1939 DBC
+64423;DC/AC Accessory Inverter 3 Lifetime Data;J1939 DBC
+64424;DC/AC Accessory Inverter 4 Temperatures;J1939 DBC
+64425;DC/AC Accessory Inverter 4 DC Side Limits;J1939 DBC
+64426;DC/AC Accessory Inverter 4 AC Side Limits;J1939 DBC
+64427;DC/AC Accessory Inverter 4 Configuration 1;J1939 DBC
+64428;DC/AC Accessory Inverter 4 Lifetime Data;J1939 DBC
+64429;DC/AC Accessory Inverter 5 Temperatures;J1939 DBC
+64430;DC/AC Accessory Inverter 5 DC Side Limits;J1939 DBC
+64431;DC/AC Accessory Inverter 5 AC Side Limits;J1939 DBC
+64432;DC/AC Accessory Inverter 5 Configuration 1;J1939 DBC
+64433;DC/AC Accessory Inverter 5 Lifetime Data;J1939 DBC
+64434;Well Stimulation Pump Sensor Calibration Status;J1939 DBC
+64435;Well Stimulation Pump Fluid Volume;J1939 DBC
+64436;Well Stimulation Pump Serial Number;J1939 DBC
+64437;Well Stimulation Pump Trip Hours;J1939 DBC
+64438;Aftertreatment 1 Outlet Gas 4;J1939 DBC
+64439;Aftertreatment 1 Intake Gas 4;J1939 DBC
+64440;DC/DC Converter 4 Lifetime Data;J1939 DBC
+64441;DC/DC Converter 4 Configuration 1;J1939 DBC
+64442;DC/DC Converter 4 SLI Battery Limits;J1939 DBC
+64443;DC/DC Converter 4 Temperatures;J1939 DBC
+64444;DC/DC Converter 4 Low Side Limits;J1939 DBC
+64445;DC/DC Converter 4 High Side Limits;J1939 DBC
+64446;DC/DC Converter 3 Lifetime Data;J1939 DBC
+64447;DC/DC Converter 3 Configuration 1;J1939 DBC
+64448;DC/DC Converter 3 SLI Battery Limits;J1939 DBC
+64449;DC/DC Converter 3 Temperatures;J1939 DBC
+64450;DC/DC Converter 3 Low Side Limits;J1939 DBC
+64451;DC/DC Converter 3 High Side Limits;J1939 DBC
+64452;DC/DC Converter 2 Lifetime Data;J1939 DBC
+64453;DC/DC Converter 2 Configuration 1;J1939 DBC
+64454;DC/DC Converter 2 SLI Battery Limits;J1939 DBC
+64455;DC/DC Converter 2 Temperatures;J1939 DBC
+64456;DC/DC Converter 2 Low Side Limits;J1939 DBC
+64457;DC/DC Converter 2 High Side Limits;J1939 DBC
+64458;CiA 602-2 Autosar CAN-NM;No
+64459;Engine Exhaust Particulate Control System Info;J1939 DBC
+64460;Well Stimulation Pump Hours;J1939 DBC
+64461;Well Stimulation Pump System Configuration Status;J1939 DBC
+64462;Configurable Receive SPNs Status;No
+64463;DC/DC Converter 1 Lifetime Data;J1939 DBC
+64464;DC/DC Converter 1 Configuration 1;J1939 DBC
+64465;DC/DC Converter 1 SLI Battery Limits;J1939 DBC
+64466;Pump Oil Message;J1939 DBC
+64467;Well Stimulation Pump System Lifetime Totals;J1939 DBC
+64468;Well Stimulation Pump System Configuration;J1939 DBC
+64469;Aftercooler and Oil Cooler Fluids 2;J1939 DBC
+64470;Electronic Engine Controller 21;J1939 DBC
+64471;Configurable Transmit PGNs Status;J1939 DBC
+64472;DC/DC Converter 1 Temperatures;J1939 DBC
+64473;DC/DC Converter 1 Low Side Limits;J1939 DBC
+64474;DC/DC Converter 1 High Side Limits;J1939 DBC
+64475;Reserved for Diagnostic Message;No
+64476;Door Control 4;J1939 DBC
+64477;Door Control 3;J1939 DBC
+64478;Engine Temperature 6;J1939 DBC
+64479;Intake/Exhaust Conditions 3;J1939 DBC
+64480;Aftercooler and Oil Cooler Fluids 1;J1939 DBC
+64481;Diode Temperature 2;J1939 DBC
+64482;Diode Temperature 1;J1939 DBC
+64483;Alternator Temperature 2;J1939 DBC
+64484;Fuel Information 7 (Gaseous);J1939 DBC
+64485;High Voltage Energy Storage Fan Status;J1939 DBC
+64486;High Voltage Energy Storage Fan Commands;J1939 DBC
+64487;SCR Operator Inducement Information 5;J1939 DBC
+64488;Aftertreatment System Information 2;J1939 DBC
+64489;Ethernet 1 Connection Information 2;No
+64490;Ethernet 1 Connection Information 1;J1939 DBC
+64491;Oil Debris Monitor Counts Ferrous Bins 1 & 2;J1939 DBC
+64492;Oil Debris Monitor Counts Ferrous Bins 3 & 4;J1939 DBC
+64493;Oil Debris Monitor Counts Ferrous Bins 5 & 6;J1939 DBC
+64494;Oil Debris Monitor Counts Non-Ferrous Bins 1 & 2;J1939 DBC
+64495;Oil Debris Monitor Counts Non-Ferrous Bins 3 & 4;J1939 DBC
+64496;Oil Debris Monitor Counts Non-Ferrous Bins 5 & 6;J1939 DBC
+64497;Oil Debris Monitoring System Status;J1939 DBC
+64499;Cruise Control / Vehicle Speed 5;J1939 DBC
+64500;Aftertreatment 2 Diesel Oxidation Catalyst 2;J1939 DBC
+64501;Aftertreatment 1 Diesel Oxidation Catalyst 2;J1939 DBC
+64502;Vehicle Position 2;J1939 DBC
+64503;Electrified Accessory Propulsion Motor Coolant Fan 3 Status;J1939 DBC
+64504;Electrified Accessory Propulsion Motor Coolant Fan 2 Status;J1939 DBC
+64505;Electrified Accessory Propulsion Motor Coolant Fan 1 Status;J1939 DBC
+64506;Electrified Accessory Power Electronics Coolant Fan 3 Status;J1939 DBC
+64507;Electrified Accessory Power Electronics Coolant Fan 2 Status;J1939 DBC
+64508;Electrified Accessory Power Electronics Coolant Fan 1 Status;J1939 DBC
+64509;Electrified Accessory Propulsion Motor Oil Pump Status;J1939 DBC
+64510;Electrified Accessory Propulsion Motor Coolant Pump Status;J1939 DBC
+64511;Electrified Accessory Power Electronics Coolant Pump Status;J1939 DBC
+64513;Electrified Accessory Motor Status;J1939 DBC
+64514;SCR System Information;J1939 DBC
+64515;Vehicle Electrical Power 14;J1939 DBC
+64516;Vehicle Electrical Power 13;J1939 DBC
+64517;Vehicle Electrical Power 12;J1939 DBC
+64518;Vehicle Electrical Power 11;J1939 DBC
+64519;Vehicle Electrical Power 10;J1939 DBC
+64520;Vehicle Electrical Power 9;J1939 DBC
+64521;Vehicle Electrical Power 8;J1939 DBC
+64522;Vehicle Electrical Power 7;J1939 DBC
+64523;Electronic Engine Controller 20;J1939 DBC
+64524;Evaporative Systems;J1939 DBC
+64525;Fire Pump Statistics 1;J1939 DBC
+64526;Primary or Rear Hitch Roll and Pitch Sensitivity;J1939 DBC & ISOBUS DBC
+64527;Secondary or Front Hitch Roll and Pitch Sensitivity;ISOBUS DBC (2022-08)
+64528;Ambient Conditions 3;J1939 DBC
+64529;Total Gaseous Fuel Information;J1939 DBC
+64530;Cab Door Control;J1939 DBC
+64531;Door Latch Status;J1939 DBC
+64532;"Vehicle Electrical Power 3 (obsolete, use PGN 65106)";No
+64533;Vehicle Electrical Power 6;J1939 DBC
+64534;Payload Temperature 2;J1939 DBC
+64535;Payload Temperature 1;J1939 DBC
+64536;Payload System Totals 2;J1939 DBC
+64537;Payload System Totals 1;J1939 DBC
+64538;HVESS Thermal Management System Control 1;J1939 DBC
+64539;HVESS Thermal Management System Control 2;J1939 DBC
+64540;Refrigeration Compartment Information 1;J1939 DBC (2022-08)
+64541;Refrigeration Compartment Information 2;J1939 DBC (2022-08)
+64546;Electronic Engine Controller 19;J1939 DBC
+64547;Fuel Consumption (Liquid) 2;J1939 DBC
+64548;Aftertreatment 2 Diesel Exhaust Fluid Tank 1 Information 2;J1939 DBC
+64549;Aftertreatment 1 Diesel Exhaust Fluid Tank 1 Information 2;J1939 DBC
+64550;Aftertreatment 2 Diesel Exhaust Fluid Information 2;J1939 DBC
+64551;Aftertreatment 1 Diesel Exhaust Fluid Information 2;J1939 DBC
+64553;Forward Lane Image 3;J1939 DBC
+64554;Operator Inducement Information;J1939 DBC
+64555;Cruise Control / Vehicle Speed 4;J1939 DBC
+64556;Brake Caliper Lining Clearance;J1939 DBC
+64557;Alternate Fuel 5;J1939 DBC
+64558;Engine Turbocharger Control 3;J1939 DBC
+64559;Fire Suppression Agent Status;J1939 DBC
+64560;SCR Operator Inducement Information 4;J1939 DBC
+64561;Aftertreatment System Information 1;J1939 DBC
+64562;Aftertreatment 1 Particulate Sensor Information 3;J1939 DBC
+64563;Engine Fuel Injector Metering Rail Pressure Information 3;J1939 DBC
+64564;Engine Fuel Injector Metering Rail Pressure Information 2;J1939 DBC
+64565;Aftertreatment 2 Diesel Exhaust Fluid Pump 1 Information;J1939 DBC
+64566;Gaseous Fuel Supply Valve Information;J1939 DBC
+64567;Engine Oil Mist Detection Information 2;J1939 DBC
+64568;Engine Oil Mist Detection Information 1;J1939 DBC
+64569;Gaseous Fuel Supply Pressure 2;J1939 DBC
+64570;Gaseous Fuel Supply Pressure 1;J1939 DBC
+64571;Engine End Bearing Temperature 3;J1939 DBC
+64572;Engine End Bearing Temperature 2;J1939 DBC
+64573;Engine End Bearing Temperature 1;J1939 DBC
+64574;Heat Exchanger Debris Purge Information;J1939 DBC
+64575;Engine Turbocharger Control 2;J1939 DBC
+64576;Engine Hydraulic Fuel 2 Pump Status;J1939 DBC
+64577;Alternate Fuel 4;J1939 DBC
+64578;Tire Condition Message 2;J1939 DBC
+64579;Tire Configuration Status Information;J1939 DBC
+64581;Tire Wireless Signal Strength Indicator;J1939 DBC
+64582;Tire Sensor Identification Status;J1939 DBC
+64583;Monitored Tire Information;J1939 DBC
+64584;Aftertreatment 2 Historical Information 2;J1939 DBC
+64585;Aftertreatment 1 Historical Information 2;J1939 DBC
+64586;SCR System Cleaning;J1939 DBC
+64587;Electronic Engine Controller 17;J1939 DBC
+64588;SCR Operator Inducement Information 3;J1939 DBC
+64589;Aftertreatment 2 SCR Dosing System Information 3;J1939 DBC
+64590;Aftertreatment 1 SCR Dosing System Information 3;J1939 DBC
+64591;Payload Weight Sensor Information;J1939 DBC
+64592;Payload System Status;J1939 DBC
+64593;Air Suspension Control 7;J1939 DBC
+64594;Bin Weight and Lift Count;J1939 DBC
+64595;Engine Gaseous Leakage Information;J1939 DBC
+64596;Driving and Rest Times Driver 2;No
+64597;Driving and Rest Times Driver 1;No
+64598;SCR Operator Inducement Information 2;J1939 DBC
+64599;SCR Operator Inducement Information 1;J1939 DBC
+64600;Turbocharger Information 7;J1939 DBC
+64601;Engine Load Sharing Information;J1939 DBC
+64605;High Voltage Energy Storage 1 Configuration;J1939 DBC
+64606;High Voltage Energy Storage 1 History;J1939 DBC
+64617;EV Operator Indicators 1;J1939 DBC
+64645;Fuel Cell Auxiliary Heater Control;J1939 DBC (2022-08)
+64649;Fuel Cell Coolant Pump 1 Status;J1939 DBC (2022-08)
+64651;Aftertreatment 1 Particulate Sensor Information 2;J1939 DBC
+64652;Aftertreatment 1 Particulate Sensor Information 1;J1939 DBC
+64653;Product Identification Information;No
+64654;Control Function Functionalities;No
+64655;Alternate Fuel 3;J1939 DBC
+64656;Engine Fuel Injector Metering Rail Pressure Information 1;J1939 DBC
+64657;Engine Exhaust NOx;J1939 DBC
+64658;Air Fuel Ratio;J1939 DBC
+64659;Gaseous Fuel Pressure 2;J1939 DBC
+64660;Aftertreatment System Abuse Information;J1939 DBC
+64661;Engine Cylinder Pressure Monitor Status Information;J1939 DBC
+64662;Engine Information 2;J1939 DBC
+64663;Electronic Steering Control 2;J1939 DBC
+64664;Vehicle Speed Limiter;J1939 DBC
+64665;Assembly Unit Identification;J1939 DBC
+64666;Joystick 3 Lamp Status;J1939 DBC
+64667;Joystick 2 Lamp Status;J1939 DBC
+64668;Joystick 1 Lamp Status;J1939 DBC
+64669;Engine Timing Actuator Position Command;J1939 DBC
+64670;Engine Timing Actuator Position;J1939 DBC
+64671;Dash Display 2;J1939 DBC
+64672;Multi-fuel Engine Hours;J1939 DBC
+64673;Engine Spark Misfire Rate 3;J1939 DBC
+64674;Engine Spark Misfire Rate 2;J1939 DBC
+64675;Engine Spark Misfire Rate 1;J1939 DBC
+64676;Engine Spark Maximum Voltage 6;J1939 DBC
+64677;Engine Spark Maximum Voltage 5;J1939 DBC
+64678;Engine Spark Maximum Voltage 4;J1939 DBC
+64679;Engine Spark Maximum Voltage 3;J1939 DBC
+64680;Engine Spark Maximum Voltage 2;J1939 DBC
+64681;Engine Spark Maximum Voltage 1;J1939 DBC
+64682;Engine Spark Minimum Voltage 6;J1939 DBC
+64683;Engine Spark Minimum Voltage 5;J1939 DBC
+64684;Engine Spark Minimum Voltage 4;J1939 DBC
+64685;Engine Spark Minimum Voltage 3;J1939 DBC
+64686;Engine Spark Minimum Voltage 2;J1939 DBC
+64687;Engine Spark Minimum Voltage 1;J1939 DBC
+64688;Engine Ignition Controller Maintenance Hours;J1939 DBC
+64689;Engine Ignition Control Module Status;J1939 DBC
+64690;Switched Power Output Current;J1939 DBC
+64691;Fused Power Output Current;J1939 DBC
+64692;Switched Power Output Status;J1939 DBC
+64693;Fused Power Output Status;J1939 DBC
+64694;Vehicle Electrical Power 5;J1939 DBC
+64695;Hybrid System Status 2;J1939 DBC
+64696;Aftertreatment 2 Service 2;J1939 DBC
+64697;Aftertreatment 1 Service 2;J1939 DBC
+64698;Aftertreatment 2 SCR Electronic Control Module Information;J1939 DBC
+64699;Aftertreatment 1 SCR Electronic Control Module Information;J1939 DBC
+64700;Aftertreatment 2 SCR Service Information 2;J1939 DBC
+64701;Aftertreatment 1 SCR Service Information 2;J1939 DBC
+64702;Electronic Transmission Controller #9;J1939 DBC
+64703;Electronic Transmission Controller #10;J1939 DBC
+64704;Electronic Transmission Controller #11;J1939 DBC
+64705;Transmission Fluids 3;J1939 DBC
+64706;Hybrid System Status 1;J1939 DBC
+64707;Fuel Information 4 (Gaseous);J1939 DBC
+64708;Aftertreatment 2 SCR Exhaust Gas Temperature 2;J1939 DBC
+64709;Aftertreatment 1 SCR Exhaust Gas Temperature 2;J1939 DBC
+64710;OBD Information;No
+64711;Model Year and Certification Engine Family;No
+64712;Electronic Engine Controller 13;J1939 DBC
+64713;Engine Fuel/Throttle Valve Information 2;J1939 DBC
+64714;Engine Exhaust Gas Recirculation 2 Actuator;J1939 DBC
+64715;Engine Exhaust Gas Recirculation 1 Actuator;J1939 DBC
+64716;Electronic Engine Controller 12;J1939 DBC
+64717;Drive Strategy Status;ISOBUS DBC (2022-08)
+64718;Drive Strategy command;ISOBUS DBC (2022-08)
+64719;NOx Sensor Self-Diagnosis Request;J1939 DBC
+64720;Engine Particulate Sensor Information;J1939 DBC
+64721;Active Service Only DTCs;No
+64722;Previously Active Service Only DTCs;No
+64723;Diagnostic Data Clear/Reset for All Service Only DTCs;No
+64724;XCP Get Slave ID;No
+64725;Aftertreatment 1 Diesel Exhaust Fluid Pump 1 Information;J1939 DBC
+64726;Aftertreatment 1 Diesel Particulate Filter 2 Soot 5;J1939 DBC
+64727;Aftertreatment 1 Diesel Particulate Filter 2 Soot 4;J1939 DBC
+64728;Aftertreatment 1 Diesel Particulate Filter 2 Soot 3;J1939 DBC
+64729;Aftertreatment 1 Diesel Particulate Filter 1 Soot 5;J1939 DBC
+64730;Aftertreatment 1 Diesel Particulate Filter 1 Soot 4;J1939 DBC
+64731;Aftertreatment 1 Diesel Particulate Filter 1 Soot 3;J1939 DBC
+64732;Cruise Control / Vehicle Speed 3;No
+64733;Aftertreatment 2 Air Control 3;J1939 DBC
+64734;Aftertreatment 1 Air Control 3;J1939 DBC
+64735;Engine Fluid Level/Pressure 12;J1939 DBC
+64736;Diesel Particulate Filter Control 2;J1939 DBC
+64737;Fuel Economy 2 (Liquid);J1939 DBC
+64738;Supplemental Fan Status;J1939 DBC
+64739;Engine Exhaust Brake Control;J1939 DBC
+64740;Engine Fuel Properties;J1939 DBC
+64741;Hydraulic Oil Properties;J1939 DBC
+64742;Vehicle/Chassis Lubrication System 2;J1939 DBC
+64743;Engine Configuration 3;J1939 DBC
+64744;Intake Valve Actuation Control;J1939 DBC
+64745;Armrest Switch Matrix Commands;J1939 DBC
+64746;"Vehicle Electrical Power 4 (obsolete, use PGN 64695)";No
+64747;Aftertreatment 2 NOx Adsorber Information;J1939 DBC
+64748;Aftertreatment 1 NOx Adsorber Information;J1939 DBC
+64749;Aftertreatment 2 Warm Up Diesel Oxidation Catalyst Information;J1939 DBC
+64750;Land Leveling System Reference Elevation Data;J1939 DBC
+64751;Engine Fluid Level/Pressure 11;J1939 DBC
+64752;Engine Fuel/Lube Systems 2;J1939 DBC
+64753;Engine Turbocharger Wastegate Actuator and Exhaust Back Pressure Regulator Information;J1939 DBC
+64754;Engine Fuel/Throttle Valve Information 1;J1939 DBC
+64755;Engine Turbocharger Compressor Bypass Information;J1939 DBC
+64756;Charge Air Cooler 2;J1939 DBC
+64757;Charge Air Cooler 2 Precooler;J1939 DBC
+64758;Charge Air Cooler 1;J1939 DBC
+64759;Charge Air Cooler 1 Precooler;J1939 DBC
+64760;Diesel Particulate Filter 2 Soot 2;J1939 DBC
+64761;Diesel Particulate Filter 1 Soot 2;J1939 DBC
+64762;Electronic Engine Controller 11;J1939 DBC
+64763;Engine Manifold Actuator Position;J1939 DBC
+64764;Engine Manifold Actuator Control;J1939 DBC
+64765;Electronic Engine Controller 9;J1939 DBC
+64766;Electronic Engine Controller 10;J1939 DBC
+64767;Engine Temperature 5;J1939 DBC
+64768;Engine Fluid Level/Pressure 10;J1939 DBC
+64769;Low Voltage Disconnect Status;J1939 DBC
+64770;All implements stop operations switch state;ISOBUS DBC (2022-08)
+64771;Implement Operating state command;ISOBUS DBC (2022-08)
+64772;Direct Lamp Control Data 2;J1939 DBC
+64773;Direct Lamp Control Data 1;J1939 DBC
+64774;Direct Lamp Control Command 2;J1939 DBC
+64775;Direct Lamp Control Command 1;J1939 DBC
+64776;Engine oil message;J1939 DBC
+64777;High Resolution Fuel Consumption (Liquid);J1939 DBC
+64778;Aftertreatment 2 Outlet Gas NOx Sensor Correction Data 2;J1939 DBC
+64779;Aftertreatment 2 Outlet Gas NOx Sensor Correction Data 1;J1939 DBC
+64780;Aftertreatment 2 Intake Gas NOx Sensor Correction Data 2;J1939 DBC
+64781;Aftertreatment 2 Intake Gas NOx Sensor Correction Data 1;J1939 DBC
+64782;Aftertreatment 1 Outlet Gas NOx Sensor Correction Data 2;J1939 DBC
+64783;Aftertreatment 1 Outlet Gas NOx Sensor Correction Data 1;J1939 DBC
+64784;Aftertreatment 1 Intake Gas NOx Sensor Correction Data 2;J1939 DBC
+64785;Aftertreatment 1 Intake Gas NOx Sensor Correction Data 1;J1939 DBC
+64786;Magnet Status Information 1;J1939 DBC
+64787;Magnet System Configuration Information;J1939 DBC
+64788;Battery Charger 2;J1939 DBC
+64789;Battery Charger 1;J1939 DBC
+64790;Occupant Classification System Information;J1939 DBC
+64791;Beltlock and Airbag Deactivation Switch Information;J1939 DBC
+64792;Collision Sensor Information;No
+64793;Ignitor Loop Information;J1939 DBC
+64794;Aftertreatment 1 Warm Up Diesel Oxidation Catalyst Information;J1939 DBC
+64795;Diesel Particulate Filter 2 Soot;J1939 DBC
+64796;Diesel Particulate Filter 1 Soot;J1939 DBC
+64797;Aftertreatment Differential Temperature 2;J1939 DBC
+64798;Aftertreatment Differential Temperature 1;J1939 DBC
+64799;Aftertreatment 2 Diesel Oxidation Catalyst 1;J1939 DBC
+64800;Aftertreatment 1 Diesel Oxidation Catalyst 1;J1939 DBC
+64801;Aftertreatment 2 Gas Oxidation Catalyst;J1939 DBC
+64802;Aftertreatment 1 Gas Oxidation Catalyst;J1939 DBC
+64803;Extended Joystick Message 10;J1939 DBC
+64804;Basic Joystick Message 10;J1939 DBC
+64805;Extended Joystick Message 9;J1939 DBC
+64806;Basic Joystick Message 9;J1939 DBC
+64807;Extended Joystick Message 8;J1939 DBC
+64808;Basic Joystick Message 8;J1939 DBC
+64809;Extended Joystick Message 7;J1939 DBC
+64810;Basic Joystick Message 7;J1939 DBC
+64811;Extended Joystick Message 6;J1939 DBC
+64812;Basic Joystick Message 6;J1939 DBC
+64813;Extended Joystick Message 5;J1939 DBC
+64814;Basic Joystick Message 5;J1939 DBC
+64815;Extended Joystick Message 4;J1939 DBC
+64816;Basic Joystick Message 4;J1939 DBC
+64817;Fan Drive #2;J1939 DBC
+64818;ECU diagnostic protocol;ISOBUS DBC (2022-08)
+64819;Aftertreatment 2 Diesel Exhaust Fluid Supply Information;J1939 DBC
+64820;Aftertreatment 2 SCR Reagant Tank 2 Information;J1939 DBC
+64821;Aftertreatment 2 Diesel Exhaust Fluid Tank 1 Information 1;J1939 DBC
+64822;Aftertreatment 2 Diesel Exhaust Fluid Information 1;J1939 DBC
+64823;Aftertreatment 2 SCR Service Information 1;J1939 DBC
+64824;Aftertreatment 2 SCR Exhaust Gas Temperature 1;J1939 DBC
+64825;Aftertreatment 2 SCR Exhaust Gas Pressures;J1939 DBC
+64826;Aftertreatment 2 SCR Dosing System Requests 2;J1939 DBC
+64827;Aftertreatment 2 SCR Dosing System Information 2;J1939 DBC
+64828;Aftertreatment 1 Diesel Exhaust Fluid Supply Information;J1939 DBC
+64829;Aftertreatment 1 SCR Reagant Tank 2 Information;J1939 DBC
+64830;Aftertreatment 1 SCR Exhaust Gas Temperature 1;J1939 DBC
+64831;Aftertreatment 1 SCR Exhaust Gas Pressures;J1939 DBC
+64832;Aftertreatment 1 SCR Dosing System Requests 2;J1939 DBC
+64833;Aftertreatment 1 SCR Dosing System Information 2;J1939 DBC
+64834;ISOBUS compliance certification;ISOBUS DBC (2022-08)
+64835;Machine Selected Speed command;ISOBUS DBC (2022-08)
+64836;Aftertreatment 2 Fuel Control 2;J1939 DBC
+64837;Aftertreatment 2 Three Way Catalyst;J1939 DBC
+64838;Aftertreatment 1 Three Way Catalyst;J1939 DBC
+64839;Transmission Mode Labels;No
+64840;Engine Exhaust Bank 2 O2 Fuel Trim;J1939 DBC
+64841;Engine Exhaust Bank 1 O2 Fuel Trim;J1939 DBC
+64842;General Purpose Message #2/11;No
+64843;General Purpose Message #2/10;No
+64844;General Purpose Message #2/9;No
+64845;General Purpose Message #2/8;No
+64846;General Purpose Message #2/7;No
+64847;General Purpose Message #2/6;No
+64848;General Purpose Message #1/9;No
+64849;Aftercooler Coolant Control Valve Command;J1939 DBC
+64850;Engine Coolant Control Valve Command;J1939 DBC
+64851;Engine Average Information;J1939 DBC
+64852;"DTCs - C, Previously Active";No
+64853;"DTCs - C, Confirmed and Active";No
+64854;"DTCs - C, Pending";No
+64855;"DTCs - B2, Previously Active";No
+64856;"DTCs - B2, Confirmed and Active";No
+64857;"DTCs - B2, Pending";No
+64858;"DTCs - B1, Previously Active";No
+64859;"DTCs - B1, Confirmed and Active";No
+64860;"DTCs - B1, Pending";No
+64861;"DTCs - A, Previously Active";No
+64862;"DTCs - A, Confirmed and Active";No
+64863;"DTCs - A, Pending";No
+64864;Harmonized B1 Failure Counts;No
+64865;Harmonized Cumulative Continuous Malfunction Indicator – System;No
+64866;Harmonized Global Regulation Description;No
+64867;Harmonized Roadworthiness – System;No
+64868;Harmonized Roadworthiness - Vehicle;No
+64869;Aftertreatment 1 Fuel Control 2;J1939 DBC
+64870;Engine Temperature 4;J1939 DBC
+64871;Zero Net Vehicle Weight Change;J1939 DBC
+64872;Gross Combination Vehicle Weight;J1939 DBC
+64873;Axle Group Calibration Weights;J1939 DBC
+64874;Axle Group Weight;J1939 DBC
+64875;Available Axle Group Weights;J1939 DBC
+64876;Aftertreatment 2 Air Control 2;J1939 DBC
+64877;Aftertreatment 1 Air Control 2;J1939 DBC
+64878;Aftertreatment 1 SCR Service Information 1;J1939 DBC
+64879;Electronic Engine Controller 8;J1939 DBC
+64880;Door ramp control;J1939 DBC
+64881;Brake actuator stroke status;J1939 DBC
+64882;Engine Spark Voltage 6;J1939 DBC
+64883;Engine Spark Voltage 5;J1939 DBC
+64884;Engine Spark Voltage 4;J1939 DBC
+64885;Engine Spark Voltage 3;J1939 DBC
+64886;Engine Spark Voltage 2;J1939 DBC
+64887;Engine Spark Voltage 1;J1939 DBC
+64888;Aftertreatment 2 Trip Information;J1939 DBC
+64889;Aftertreatment 1 Trip Information;J1939 DBC
+64890;Aftertreatment 2 Service 1;J1939 DBC
+64891;Aftertreatment 1 Service 1;J1939 DBC
+64892;Diesel Particulate Filter Control 1;J1939 DBC
+64893;Reserved for FMS Telltale status;No
+64894;Adaptive Front-Lighting System Status;J1939 DBC
+64895;Engine Configuration 2;J1939 DBC
+64896;Emission-Related Permanent Diagnostic Trouble Codes;No
+64897;EGR Cooler Bypass;J1939 DBC
+64898;All Pending DTCs;No
+64899;Transfer Case Information;J1939 DBC
+64900;Engine Fluid Level/Pressure 9;J1939 DBC
+64901;Engine Fluid Level/Pressure 8;J1939 DBC
+64902;Engine Fluid Level/Pressure 7;J1939 DBC
+64903;Engine Fluid Level/Pressure 6;J1939 DBC
+64904;Engine Fluid Level/Pressure 5;J1939 DBC
+64905;Vehicle Direction/Speed 2;J1939 DBC
+64906;SAE J2012 DTC Display;J1939 DBC
+64907;Aftertreatment 2 Gas Parameters;J1939 DBC
+64908;Aftertreatment 1 Gas Parameters;J1939 DBC
+64909;Utility Total AC Reactive Energy;J1939 DBC
+64910;Generator Total AC Reactive Energy;J1939 DBC
+64911;Generator Total AC Percent Power;J1939 DBC
+64912;Advertised Engine Torque Curve;No
+64913;AC Switching Device Status;J1939 DBC
+64914;Engine Operating Information;J1939 DBC
+64915;Generator Control 1;J1939 DBC
+64916;Electronic Engine Controller 7;J1939 DBC
+64917;Transmission Fluids 2;J1939 DBC
+64918;Fuel Information 2 (Liquid);J1939 DBC
+64919;Fuel Information 3 (Liquid);J1939 DBC
+64920;Aftertreatment 1 Historical Information 1;J1939 DBC
+64921;Aftertreatment 2 Historical information 1;J1939 DBC
+64922;Electronic Brake System #2/4;No
+64923;Aftertreatment 1 Diesel Exhaust Fluid Information 1;J1939 DBC
+64924;Sensor Electrical Power #2;J1939 DBC
+64925;Sensor Electrical Power #1;J1939 DBC
+64926;Aftertreatment 2 Air Control 1;J1939 DBC
+64927;Aftertreatment 1 Air Control 1;J1939 DBC
+64928;Aftertreatment 2 Fuel Control 1;J1939 DBC
+64929;Aftertreatment 1 Fuel Control 1;J1939 DBC
+64930;Fuel Information 3 (Gaseous);J1939 DBC
+64931;Electronic Engine Controller 6;J1939 DBC
+64932;PTO Drive Engagement;J1939 DBC
+64933;Door Control 2;J1939 DBC
+64934;Voltage Regulator Excitation Status;J1939 DBC
+64935;Voltage Regulator Operating Mode;J1939 DBC
+64936;Wireless Communications Message 2;J1939 DBC
+64937;Wireless Communications Message 1;J1939 DBC
+64938;Engine Fluid Level/Pressure 4;J1939 DBC
+64939;Request For Complete Configurable Message Set (no longer used);No
+64940;Engine Fuel Information;J1939 DBC
+64941;Request For Complete Configurable Message Set;No
+64942;Fifth Wheel Smart Systems 2;J1939 DBC
+64943;Aftertreatment 2 Intermediate Gas;J1939 DBC
+64944;Aftertreatment 2 Outlet Gas 2;J1939 DBC
+64945;Aftertreatment 2 Intake Gas 2;J1939 DBC
+64946;Aftertreatment 1 Intermediate Gas;J1939 DBC
+64947;Aftertreatment 1 Outlet Gas 2;J1939 DBC
+64948;Aftertreatment 1 Intake Gas 2;J1939 DBC
+64949;Emission-Related Previously MIL-On Diagnostic Trouble Codes;No
+64950;SPN Support;No
+64951;Expanded Freeze Frame;No
+64952;Diagnostic Readiness 3;No
+64953;Tire Pressure Reference Information;J1939 DBC
+64954;Farebox Status;J1939 DBC
+64955;Farebox Point of Sale;J1939 DBC
+64956;Farebox Service Detail;J1939 DBC
+64957;Signal Preemption;J1939 DBC
+64958;Transit Route;No
+64959;Transit Milepost;No
+64960;Passenger Counter;J1939 DBC
+64961;Engine Fluid Level/Pressure 3;J1939 DBC
+64962;Electronic Engine Controller 14;J1939 DBC
+64963;Electronic Engine Controller 15;J1939 DBC
+64964;Electronic Brake Controller 5;J1939 DBC
+64965;ECU Identification Information;J1939 DBC & ISOBUS DBC
+64966;Cold Start Aids;J1939 DBC
+64967;Off-Highway Engine Control Selection States;J1939 DBC
+64968;Operator Primary Intermediate Speed Control state;J1939 DBC
+64969;Electronic Control Module Information;J1939 DBC
+64970;Intermediate Speed Control;J1939 DBC
+64971;Off-Highway Engine Control Selection;J1939 DBC
+64972;Operators External Light Controls Message;J1939 DBC
+64973;Operator Wiper and Washer Controls Message;J1939 DBC
+64974;Working Set Member Message (Obsolete - See PGN 65088);No
+64975;Working Set Master Message (Obsolete - See PGN 65089);No
+64976;Intake/Exhaust Conditions 2;J1939 DBC
+64977;FMS-standard Interface Identity/Capabilities;J1939 DBC
+64978;ECU Performance;J1939 DBC
+64979;Turbocharger Information 6;J1939 DBC
+64980;Cab Message 3;J1939 DBC
+64981;Electronic Engine Controller 5;J1939 DBC
+64982;Basic Joystick Message 1;J1939 DBC
+64983;Extended Joystick Message 1;J1939 DBC
+64984;Basic Joystick Message 2;J1939 DBC
+64985;Extended Joystick Message 2;J1939 DBC
+64986;Basic Joystick Message 3;J1939 DBC
+64987;Extended Joystick Message 3;J1939 DBC
+64988;Marine Control Information;J1939 DBC
+64989;Military Application Message #1/1;No
+64990;Military Application Message #2/1;No
+64991;Front Wheel Drive Status;J1939 DBC
+64992;Ambient Conditions 2;J1939 DBC
+64993;Cab A/C Climate System Information;J1939 DBC
+64994;Supply Pressure Demand;J1939 DBC
+64995;Equipment Operation and Control;J1939 DBC
+64996;Equipment Performance Data;J1939 DBC
+64997;Maximum Vehicle Speed Limit Status;J1939 DBC
+64998;Hydraulic Braking System;J1939 DBC
+64999;Bus #1/Utility Sync Check Status;J1939 DBC
+65000;Bus #1/Generator Sync Check Status;J1939 DBC
+65001;Bus #1 Phase C Basic AC Quantities;J1939 DBC
+65002;Bus #1 Phase B Basic AC Quantities;J1939 DBC
+65003;Bus #1 Phase A Basic AC Quantities;J1939 DBC
+65004;Bus #1 Average Basic AC Quantities;J1939 DBC
+65005;Utility Total AC Energy;J1939 DBC
+65006;Utility Phase C AC Reactive Power;J1939 DBC
+65007;Utility Phase C AC Power;J1939 DBC
+65008;Utility Phase C AC Basic Quantities;J1939 DBC
+65009;Utility Phase B AC Reactive Power;J1939 DBC
+65010;Utility Phase B AC Power;J1939 DBC
+65011;Utility Phase B AC Basic Quantities;J1939 DBC
+65012;Utility Phase A AC Reactive Power;J1939 DBC
+65013;Utility Phase A AC Power;J1939 DBC
+65014;Utility Phase A Basic AC Quantities;J1939 DBC
+65015;Utility Total AC Reactive Power;J1939 DBC
+65016;Utility Total AC Power;J1939 DBC
+65017;Utility Average Basic AC Quantities;J1939 DBC
+65018;Generator Total AC Energy;J1939 DBC
+65019;Generator Phase C AC Reactive Power;J1939 DBC
+65020;Generator Phase C AC Power;J1939 DBC
+65021;Generator Phase C Basic AC Quantities;J1939 DBC
+65022;Generator Phase B AC Reactive Power;J1939 DBC
+65023;Generator Phase B AC Power;J1939 DBC
+65024;Generator Phase B Basic AC Quantities;J1939 DBC
+65025;Generator Phase A AC Reactive Power;J1939 DBC
+65026;Generator Phase A AC Power;J1939 DBC
+65027;Generator Phase A Basic AC Quantities;J1939 DBC
+65028;Generator Total AC Reactive Power;J1939 DBC
+65029;Generator Total AC Power;J1939 DBC
+65030;Generator Average Basic AC Quantities;J1939 DBC
+65031;Exhaust Temperature;J1939 DBC
+65032;Required Tractor Facilities message;ISOBUS DBC (2022-08)
+65033;Tractor Facilities response message;ISOBUS DBC (2022-08)
+65034;Implement Remote Control Command Tractor Response;No
+65035;Tractor control mode command;ISOBUS DBC (2022-08)
+65036;Working Set Member;ISOBUS DBC (2022-08)
+65037;Working Set Master;ISOBUS DBC (2022-08)
+65038;Response for Repetition Rate;ISOBUS DBC (2022-08)
+65039;Language command;ISOBUS DBC (2022-08)
+65040;Auxiliary valve 0 estimated flow;ISOBUS DBC (2022-08)
+65041;Auxiliary valve 1 estimated flow;ISOBUS DBC (2022-08)
+65042;Auxiliary valve 2 estimated flow;ISOBUS DBC (2022-08)
+65043;Auxiliary valve 3 estimated flow;ISOBUS DBC (2022-08)
+65044;Auxiliary valve 4 estimated flow;ISOBUS DBC (2022-08)
+65045;Auxiliary valve 5 estimated flow;ISOBUS DBC (2022-08)
+65046;Auxiliary valve 6 estimated flow;ISOBUS DBC (2022-08)
+65047;Auxiliary valve 7 estimated flow;ISOBUS DBC (2022-08)
+65048;Auxiliary valve 8 estimated flow;ISOBUS DBC (2022-08)
+65049;Auxiliary valve 9 estimated flow;ISOBUS DBC (2022-08)
+65050;Auxiliary valve 10 estimated flow;ISOBUS DBC (2022-08)
+65051;Auxiliary valve 11 estimated flow;ISOBUS DBC (2022-08)
+65052;Auxiliary valve 12 estimated flow;ISOBUS DBC (2022-08)
+65053;Auxiliary valve 13 estimated flow;ISOBUS DBC (2022-08)
+65054;Auxiliary valve 14 estimated flow;ISOBUS DBC (2022-08)
+65055;Auxiliary valve 15 estimated flow;ISOBUS DBC (2022-08)
+65056;Auxiliary valve 0 measured flow;ISOBUS DBC (2022-08)
+65057;Auxiliary valve 1 measured flow;ISOBUS DBC (2022-08)
+65058;Auxiliary valve 2 measured flow;ISOBUS DBC (2022-08)
+65059;Auxiliary valve 3 measured flow;ISOBUS DBC (2022-08)
+65060;Auxiliary valve 4 measured flow;ISOBUS DBC (2022-08)
+65061;Auxiliary valve 5 measured flow;ISOBUS DBC (2022-08)
+65062;Auxiliary valve 6 measured flow;ISOBUS DBC (2022-08)
+65063;Auxiliary valve 7 measured flow;ISOBUS DBC (2022-08)
+65064;Auxiliary valve 8 measured flow;ISOBUS DBC (2022-08)
+65065;Auxiliary valve 9 measured flow;ISOBUS DBC (2022-08)
+65066;Auxiliary valve 10 measured flow;ISOBUS DBC (2022-08)
+65067;Auxiliary valve 11 measured flow;ISOBUS DBC (2022-08)
+65068;Auxiliary valve 12 measured flow;ISOBUS DBC (2022-08)
+65069;Auxiliary valve 13 measured flow;ISOBUS DBC (2022-08)
+65070;Auxiliary valve 14 measured flow;ISOBUS DBC (2022-08)
+65071;Auxiliary valve 15 measured flow;ISOBUS DBC (2022-08)
+65072;Auxiliary valve 0 command;ISOBUS DBC (2022-08)
+65073;Auxiliary valve 1 command;ISOBUS DBC (2022-08)
+65074;Auxiliary valve 2 command;ISOBUS DBC (2022-08)
+65075;Auxiliary valve 3 command;ISOBUS DBC (2022-08)
+65076;Auxiliary valve 4 command;ISOBUS DBC (2022-08)
+65077;Auxiliary valve 5 command;ISOBUS DBC (2022-08)
+65078;Auxiliary valve 6 command;ISOBUS DBC (2022-08)
+65079;Auxiliary valve 7 command;ISOBUS DBC (2022-08)
+65080;Auxiliary valve 8 command;ISOBUS DBC (2022-08)
+65081;Auxiliary valve 9 command;ISOBUS DBC (2022-08)
+65082;Auxiliary valve 10 command;ISOBUS DBC (2022-08)
+65083;Auxiliary valve 11 command;ISOBUS DBC (2022-08)
+65084;Auxiliary valve 12 command;ISOBUS DBC (2022-08)
+65085;Auxiliary valve 13 command;ISOBUS DBC (2022-08)
+65086;Auxiliary valve 14 command;ISOBUS DBC (2022-08)
+65087;Auxiliary valve 15 command;ISOBUS DBC (2022-08)
+65088;Lighting Data;J1939 DBC & ISOBUS DBC
+65089;Lighting command;J1939 DBC & ISOBUS DBC
+65090;Hitch and PTO commands;ISOBUS DBC (2022-08)
+65091;Primary or Rear Power Take off Output Shaft;ISOBUS DBC (2022-08)
+65092;Secondary or Front Power Take off Output Shaft;ISOBUS DBC (2022-08)
+65093;Primary or Rear Hitch Status;ISOBUS DBC (2022-08)
+65094;Secondary or Front Hitch Status;ISOBUS DBC (2022-08)
+65095;Maintain Power;ISOBUS DBC (2022-08)
+65096;Wheel-based Speed and Distance;ISOBUS DBC (2022-08)
+65097;Ground-based Speed and Distance;ISOBUS DBC (2022-08)
+65098;Electronic Transmission Controller 7;J1939 DBC
+65099;Transmission Configuration 2;J1939 DBC
+65100;Military Lighting Command;J1939 DBC
+65101;Total Averaged Information;J1939 DBC
+65102;Door Control 1;J1939 DBC
+65103;Vehicle Dynamic Stability Control 1;J1939 DBC
+65104;Battery Temperature;J1939 DBC
+65105;"Adaptive Cruise Control, Operator Input";J1939 DBC
+65106;Vehicle Electrical Power 3;J1939 DBC
+65107;Retarder Continuous Torque & Speed Limit;J1939 DBC
+65108;Engine Continuous Torque & Speed Limit;J1939 DBC
+65109;Gaseous Fuel Properties;J1939 DBC
+65110;Aftertreatment 1 Diesel Exhaust Fluid Tank 1 Information 1;J1939 DBC
+65111;Air Suspension Control 5;J1939 DBC
+65112;Air Suspension Control 4;J1939 DBC
+65113;Air Suspension Control 3;J1939 DBC
+65114;Air Suspension Control 1;J1939 DBC
+65115;Forward Lane Image 2;J1939 DBC
+65116;Running Gear Equipment #2/2;No
+65117;General Purpose Message #1/2;No
+65118;Running Gear Equipment #2/3;No
+65119;General Purpose Message #1/3;No
+65120;General Purpose Message #2/3;No
+65121;General Purpose Message #1/4;No
+65122;General Purpose Message #2/4;No
+65123;General Purpose Message #1/5;No
+65124;General Purpose Message #2/5;No
+65125;General Purpose Message #1/6;No
+65126;Battery Main Switch Information;J1939 DBC
+65127;Climate Control Configuration;J1939 DBC
+65128;Vehicle Fluids;J1939 DBC
+65129;Engine Temperature 3;J1939 DBC
+65130;Engine Fuel/Lube Systems;J1939 DBC
+65131;Driver's Identification;J1939 DBC
+65132;Tachograph;J1939 DBC
+65133;Heater Information;J1939 DBC
+65134;High Resolution Wheel Speed;J1939 DBC
+65135;Adaptive Cruise Control 1;J1939 DBC
+65136;Combination Vehicle Weight;J1939 DBC
+65137;Laser Tracer Position;J1939 DBC
+65138;Laser Leveling System Blade Control;J1939 DBC
+65139;Laser Receiver Mast Position;J1939 DBC
+65140;Modify Leveling System Control Set Point;J1939 DBC
+65141;Laser Leveling System Vertical Deviation;J1939 DBC
+65142;Laser Leveling System Vertical Position Display Data;J1939 DBC
+65143;Auxiliary Pressures;J1939 DBC
+65144;Tire Pressure Control Unit Mode and Status;J1939 DBC
+65145;Tire Pressure Control Unit Target Pressures;J1939 DBC
+65146;Tire Pressure Control Unit Current Pressures;J1939 DBC
+65147;Combustion Time 1;J1939 DBC
+65148;Combustion Time 2;J1939 DBC
+65149;Combustion Time 3;J1939 DBC
+65150;Combustion Time 4;J1939 DBC
+65151;Combustion Time 5;J1939 DBC
+65152;Combustion Time 6;J1939 DBC
+65153;Fuel Information 2 (Gaseous);J1939 DBC
+65154;Ignition Timing 1;J1939 DBC
+65155;Ignition Timing 2;J1939 DBC
+65156;Ignition Timing 3;J1939 DBC
+65157;Ignition Timing 4;J1939 DBC
+65158;Ignition Timing 5;J1939 DBC
+65159;Ignition Timing 6;J1939 DBC
+65160;Ignition Transformer Secondary Output 1;J1939 DBC
+65161;Ignition Transformer Secondary Output 2;J1939 DBC
+65162;Ignition Transformer Secondary Output 3;J1939 DBC
+65163;Gaseous Fuel Pressure 1;J1939 DBC
+65164;Auxiliary Analog Information;J1939 DBC
+65165;Vehicle Electrical Power 2;J1939 DBC
+65166;Service 2;J1939 DBC
+65167;Supply Pressure 2;J1939 DBC
+65168;Engine Torque History;J1939 DBC
+65169;Fuel Leakage;J1939 DBC
+65170;Engine Information 1;J1939 DBC
+65171;Engine Electrical System/Module Information;J1939 DBC
+65172;Engine Auxiliary Coolant;J1939 DBC
+65173;Rebuild Information;J1939 DBC
+65174;Turbocharger Wastegate;J1939 DBC
+65175;Turbocharger Information 5;J1939 DBC
+65176;Turbocharger Information 4;J1939 DBC
+65177;Turbocharger Information 3;J1939 DBC
+65178;Turbocharger Information 2;J1939 DBC
+65179;Turbocharger Information 1;J1939 DBC
+65180;Main Bearing Temperature 3;J1939 DBC
+65181;Main Bearing Temperature 2;J1939 DBC
+65182;Main Bearing Temperature 1;J1939 DBC
+65183;Exhaust Port Temperature 5;J1939 DBC
+65184;Exhaust Port Temperature 4;J1939 DBC
+65185;Exhaust Port Temperature 3;J1939 DBC
+65186;Exhaust Port Temperature 2;J1939 DBC
+65187;Exhaust Port Temperature 1;J1939 DBC
+65188;Engine Temperature 2;J1939 DBC
+65189;Intake Manifold Information 2;J1939 DBC
+65190;Intake Manifold Information 1;J1939 DBC
+65191;Alternator Temperature 1;J1939 DBC
+65192;Articulation Control;J1939 DBC
+65193;Exhaust Oxygen 1;J1939 DBC
+65194;Alternate Fuel 2;J1939 DBC
+65195;Electronic Transmission Controller 6;J1939 DBC
+65196;Wheel Brake Lining Remaining Information;J1939 DBC
+65197;Wheel Application Pressure High Range Information;J1939 DBC
+65198;Air Supply Pressure;J1939 DBC
+65199;Fuel Consumption (Gaseous);J1939 DBC
+65200;Trip Time Information 2;J1939 DBC
+65201;ECU History;J1939 DBC
+65202;Fuel Information 1 (Gaseous);J1939 DBC
+65203;Fuel Information 1 (Liquid);J1939 DBC
+65204;Trip Time Information 1;J1939 DBC
+65205;Trip Shutdown Information;J1939 DBC
+65206;Trip Vehicle Speed/Cruise Distance Information;J1939 DBC
+65207;Engine Speed/Load Factor Information;J1939 DBC
+65208;Trip Fuel Information (Gaseous);J1939 DBC
+65209;Trip Fuel Information (Liquid);J1939 DBC
+65210;Trip Distance Information;J1939 DBC
+65211;Trip Fan Information;J1939 DBC
+65212;Compression/Service Brake Information;J1939 DBC
+65213;Fan Drive #1;J1939 DBC
+65214;Electronic Engine Controller 4;J1939 DBC
+65215;Wheel Speed Information;J1939 DBC
+65216;Service Information;J1939 DBC
+65217;High Resolution Vehicle Distance;J1939 DBC
+65218;Electronic Retarder Controller 2;J1939 DBC
+65219;Electronic Transmission Controller 5;J1939 DBC
+65220;Electronic Brake System #2/2;No
+65221;Electronic Transmission Controller 4;J1939 DBC
+65222;Electronic Brake System #2/3;No
+65223;Electronic Transmission Controller 3;J1939 DBC
+65224;General Purpose Message #2/2;No
+65225;Electronic Brake System #1/2;No
+65226;Active Diagnostic Trouble Codes;No
+65227;Previously Active Diagnostic Trouble Codes;No
+65228;Diagnostic Data Clear/Reset for Previously Active DTCs;No
+65229;Freeze Frame Parameters;No
+65230;Diagnostic Readiness 1;No
+65231;Emission-Related Pending Diagnostic Trouble Codes;No
+65232;Test Results for Non-continuously Monitored Systems;No
+65233;Oxygen Sensor Test Results;No
+65234;Non-Continuously Monitored Systems Test Identifiers Support;No
+65235;Diagnostic Data Clear/Reset for Active DTCs;No
+65236;Emission-Related MIL-On Diagnostic Trouble Codes;No
+65237;Alternator Information;J1939 DBC
+65238;Hybrid System Inputs 1;J1939 DBC
+65240;ISO Commanded Address;NMEA DBC
+65241;Auxiliary Input/Output Status 1;J1939 DBC
+65242;Software Identification;J1939 DBC & ISOBUS DBC
+65243;Engine Fluid Level/Pressure 2;J1939 DBC
+65244;Idle Operation;J1939 DBC
+65245;Turbocharger;J1939 DBC
+65246;Engine Air Start Pressure;J1939 DBC
+65247;Electronic Engine Controller 3;J1939 DBC
+65248;Vehicle Distance;J1939 DBC
+65249;Retarder Configuration;J1939 DBC
+65250;Transmission Configuration;J1939 DBC
+65251;Engine Configuration 1;J1939 DBC
+65252;Shutdown;J1939 DBC
+65253;"Engine Hours, Revolutions";J1939 DBC
+65254;Time/Date;J1939 DBC & ISOBUS DBC
+65255;Vehicle Hours;J1939 DBC
+65256;Vehicle Direction/Speed;J1939 DBC
+65257;Fuel Consumption (Liquid) 1;J1939 DBC
+65258;Vehicle Weight;J1939 DBC
+65259;Component Identification;J1939 DBC
+65260;Vehicle Identification;J1939 DA
+65261;Cruise Control/Vehicle Speed Setup;J1939 DBC
+65262;Engine Temperature 1;J1939 DBC
+65263;Engine Fluid Level/Pressure 1;J1939 DBC
+65264;Power Takeoff Information;J1939 DBC
+65265;Cruise Control/Vehicle Speed 1;J1939 DBC
+65266;Fuel Economy (Liquid);J1939 DBC
+65267;Vehicle Position 1;J1939 DBC
+65268;Tire Condition Message 1;J1939 DBC
+65269;Ambient Conditions;J1939 DBC
+65270;Intake/Exhaust Conditions 1;J1939 DBC
+65271;Vehicle Electrical Power 1;J1939 DBC
+65272;Transmission Fluids 1;J1939 DBC
+65273;Axle Information;J1939 DBC
+65274;Brakes 1;J1939 DBC
+65275;Retarder fluids;J1939 DBC
+65276;Dash Display 1;J1939 DBC
+65277;Alternate Fuel 1;J1939 DBC
+65278;Auxiliary Water Pump Pressure;J1939 DBC
+65279;Operator indicators;J1939 DBC
+65280;Proprietary B (first entry);No
+65281;Proprietary B;No
+65282;Proprietary B;No
+65283;Proprietary B;No
+65285;Proprietary B;No
+65288;Proprietary B;No
+65289;Proprietary B;No
+65290;Proprietary B;No
+65291;Proprietary B;No
+65292;Proprietary B;No
+65293;Proprietary B;No
+65294;Proprietary B;No
+65295;Proprietary B;No
+65296;Proprietary B;No
+65297;Proprietary B;No
+65298;Proprietary B;No
+65299;Proprietary B;No
+65300;Proprietary B;No
+65301;Proprietary B;No
+65302;Proprietary B;No
+65303;Proprietary B;No
+65304;Proprietary B;No
+65305;Proprietary B;No
+65306;Proprietary B;No
+65307;Proprietary B;No
+65308;Proprietary B;No
+65309;Proprietary B;No
+65310;Proprietary B;No
+65311;Proprietary B;No
+65312;Proprietary B;No
+65313;Proprietary B;No
+65314;Proprietary B;No
+65315;Proprietary B;No
+65316;Proprietary B;No
+65317;Proprietary B;No
+65318;Proprietary B;No
+65319;Proprietary B;No
+65320;Proprietary B;No
+65321;Proprietary B;No
+65322;Proprietary B;No
+65323;Proprietary B;No
+65324;Proprietary B;No
+65325;Proprietary B;No
+65326;Proprietary B;No
+65327;Proprietary B;No
+65328;Proprietary B;No
+65329;Proprietary B;No
+65330;Proprietary B;No
+65331;Proprietary B;No
+65332;Proprietary B;No
+65333;Proprietary B;No
+65334;Proprietary B;No
+65335;Proprietary B;No
+65336;Proprietary B;No
+65337;Proprietary B;No
+65338;Proprietary B;No
+65339;Proprietary B;No
+65340;Proprietary B;No
+65341;Proprietary B;No
+65342;Proprietary B;No
+65343;Proprietary B;No
+65344;Proprietary B;No
+65345;Proprietary B;No
+65346;Proprietary B;No
+65347;Proprietary B;No
+65348;Proprietary B;No
+65349;Proprietary B;No
+65350;Proprietary B;No
+65351;Proprietary B;No
+65352;Proprietary B;No
+65353;Proprietary B;No
+65354;Proprietary B;No
+65355;Proprietary B;No
+65356;Proprietary B;No
+65357;Proprietary B;No
+65358;Proprietary B;No
+65359;Proprietary B;No
+65362;Proprietary B;No
+65363;Proprietary B;No
+65364;Proprietary B;No
+65365;Proprietary B;No
+65366;Proprietary B;No
+65367;Proprietary B;No
+65368;Proprietary B;No
+65369;Proprietary B;No
+65370;Proprietary B;No
+65371;Proprietary B;No
+65372;Proprietary B;No
+65373;Proprietary B;No
+65374;Proprietary B;No
+65375;Proprietary B;No
+65376;Proprietary B;No
+65377;Proprietary B;No
+65378;Proprietary B;No
+65379;Proprietary B;No
+65380;Proprietary B;No
+65381;Proprietary B;No
+65382;Proprietary B;No
+65383;Proprietary B;No
+65384;Proprietary B;No
+65385;Proprietary B;No
+65386;Proprietary B;No
+65387;Proprietary B;No
+65388;Proprietary B;No
+65389;Proprietary B;No
+65390;Proprietary B;No
+65391;Proprietary B;No
+65392;Proprietary B;No
+65393;Proprietary B;No
+65394;Proprietary B;No
+65395;Proprietary B;No
+65396;Proprietary B;No
+65397;Proprietary B;No
+65398;Proprietary B;No
+65399;Proprietary B;No
+65400;Proprietary B;No
+65401;Proprietary B;No
+65402;Proprietary B;No
+65403;Proprietary B;No
+65404;Proprietary B;No
+65405;Proprietary B;No
+65406;Proprietary B;No
+65407;Proprietary B;No
+65408;Proprietary B;No
+65410;Proprietary B;No
+65411;Proprietary B;No
+65412;Proprietary B;No
+65413;Proprietary B;No
+65414;Proprietary B;No
+65415;Proprietary B;No
+65416;Proprietary B;No
+65417;Proprietary B;No
+65418;Proprietary B;No
+65419;Proprietary B;No
+65420;Proprietary B;No
+65421;Proprietary B;No
+65422;Proprietary B;No
+65423;Proprietary B;No
+65424;Proprietary B;No
+65425;Proprietary B;No
+65426;Proprietary B;No
+65427;Proprietary B;No
+65428;Proprietary B;No
+65429;Proprietary B;No
+65430;Proprietary B;No
+65431;Proprietary B;No
+65432;Proprietary B;No
+65433;Proprietary B;No
+65434;Proprietary B;No
+65435;Proprietary B;No
+65436;Proprietary B;No
+65437;Proprietary B;No
+65438;Proprietary B;No
+65439;Proprietary B;No
+65440;Proprietary B;No
+65441;Proprietary B;No
+65442;Proprietary B;No
+65443;Proprietary B;No
+65444;Proprietary B;No
+65445;Proprietary B;No
+65446;Proprietary B;No
+65447;Proprietary B;No
+65448;Proprietary B;No
+65449;Proprietary B;No
+65450;Proprietary B;No
+65451;Proprietary B;No
+65452;Proprietary B;No
+65453;Proprietary B;No
+65454;Proprietary B;No
+65455;Proprietary B;No
+65456;Proprietary B;No
+65457;Proprietary B;No
+65458;Proprietary B;No
+65459;Proprietary B;No
+65460;Proprietary B;No
+65461;Proprietary B;No
+65462;Proprietary B;No
+65463;Proprietary B;No
+65464;Proprietary B;No
+65465;Proprietary B;No
+65466;Proprietary B;No
+65467;Proprietary B;No
+65468;Proprietary B;No
+65469;Proprietary B;No
+65470;Proprietary B;No
+65471;Proprietary B;No
+65472;Proprietary B;No
+65473;Proprietary B;No
+65474;Proprietary B;No
+65475;Proprietary B;No
+65476;Proprietary B;No
+65477;Proprietary B;No
+65478;Proprietary B;No
+65479;Proprietary B;No
+65480;Proprietary B;No
+65481;Proprietary B;No
+65482;Proprietary B;No
+65483;Proprietary B;No
+65484;Proprietary B;No
+65485;Proprietary B;No
+65486;Proprietary B;No
+65487;Proprietary B;No
+65488;Proprietary B;No
+65489;Proprietary B;No
+65490;Proprietary B;No
+65491;Proprietary B;No
+65492;Proprietary B;No
+65493;Proprietary B;No
+65494;Proprietary B;No
+65495;Proprietary B;No
+65496;Proprietary B;No
+65497;Proprietary B;No
+65498;Proprietary B;No
+65499;Proprietary B;No
+65500;Proprietary B;No
+65501;Proprietary B;No
+65502;Proprietary B;No
+65503;Proprietary B;No
+65504;Proprietary B;No
+65505;Proprietary B;No
+65506;Proprietary B;No
+65507;Proprietary B;No
+65508;Proprietary B;No
+65509;Proprietary B;No
+65510;Proprietary B;No
+65511;Proprietary B;No
+65512;Proprietary B;No
+65513;Proprietary B;No
+65514;Proprietary B;No
+65515;Proprietary B;No
+65516;Proprietary B;No
+65517;Proprietary B;No
+65518;Proprietary B;No
+65519;Proprietary B;No
+65520;Proprietary B;No
+65521;Proprietary B;No
+65522;Proprietary B;No
+65523;Proprietary B;No
+65524;Proprietary B;No
+65525;Proprietary B;No
+65526;Proprietary B;No
+65527;Proprietary B;No
+65528;Proprietary B;No
+65529;Proprietary B;No
+65530;Proprietary B;No
+65531;Proprietary B;No
+65532;Proprietary B;No
+65533;Proprietary B;No
+65534;Proprietary B;No
+65535;Proprietary B (last entry);No
+126208;NMEA - Request/Command/Acknowledge group function;No
+126720;Proprietary A2;No
+126983;Alert;NMEA DBC
+126984;Alert Response;NMEA DBC
+126985;Alert Text;NMEA DBC
+126986;Alert Configuration;NMEA DBC (2022)
+126987;Alert Threshold;NMEA DBC (2022)
+126988;Alert Value;NMEA DBC (2022)
+126992;System Time;NMEA DBC
+126993;Heartbeat;NMEA DBC
+126996;Product Information;NMEA DBC
+127233;Man Overboard Notification(MOB);NMEA DBC
+127237;Heading/Track Control;NMEA DBC
+127245;Rudder;NMEA DBC
+127250;Vessel Heading;NMEA DBC
+127251;Rate of Turn;NMEA DBC
+127252;Heave;NMEA DBC (2022)
+127257;Attitude;NMEA DBC
+127258;Magnetic Variation;NMEA DBC
+127488;"Engine Parameters, Rapid Update";NMEA DBC
+127489;"Engine Parameters, Dynamic";NMEA DBC
+127493;"Transmission Parameters, Dynamic";NMEA DBC
+127496;"Trip Fuel Consumption, Vessel";NMEA DBC
+127497;"Trip Fuel Consumption, Engine";NMEA DBC
+127498;"Engine Parameters, Static";NMEA DBC
+127500;Load Controller Connection State / Control;NMEA DBC
+127501;Switch Bank Status;NMEA DBC
+127502;Switch Bank Control - DEPRICATED;NMEA DBC
+127503;AC Input Status -DEPRECATED;NMEA DBC
+127504;AC Output Status -DEPRECATED;NMEA DBC
+127505;Fluid Level;NMEA DBC
+127506;DC Detailed Status;NMEA DBC
+127507;Charger Status- DEPRECATED;NMEA DBC
+127508;Battery Status;NMEA DBC
+127509;Inverter Status- DEPRECATED;NMEA DBC
+127510;Charger Configuration Status;NMEA DBC (2022)
+127511;Inverter Configuration Status;NMEA DBC (2022)
+127512;AGS Configuration Status;NMEA DBC (2022)
+127513;Battery Configuration Status;NMEA DBC (2022)
+127514;AGS Status;NMEA DBC (2022)
+127744;AC Power / Current- Phase A;NMEA DBC
+127745;AC Power / Current- Phase B;NMEA DBC
+127746;AC Power / Current- Phase C;NMEA DBC
+127747;AC Voltage / Frequency-Phase A;NMEA DBC (2022)
+127748;AC Voltage / Frequency-Phase B;NMEA DBC (2022)
+127749;AC Voltage / Frequency-Phase C;NMEA DBC (2022)
+127750;Converter (Inverter/Charger) Status;NMEA DBC
+127751;DC Voltage / Current;NMEA DBC
+128000;Nautical Leeway Angle;NMEA DBC
+128001;Vessel Acceleration;NMEA DBC (2022)
+128006;Thruster Control Status;NMEA DBC (2022)
+128007;Thruster Information;NMEA DBC (2022)
+128008;Thruster Motor Status;NMEA DBC (2022)
+128259;"Speed, Water Referenced";NMEA DBC
+128267;Water Depth;NMEA DBC
+128275;Distance Log;NMEA DBC
+128520;Tracked Target Data;NMEA DBC (2022)
+128538;Elevator Car Status;NMEA DBC (2022)
+128768;Elevator Motor Control;NMEA DBC (2022)
+128769;Elevator Deck Push Button;NMEA DBC (2022)
+128776;Windlass Control Status;NMEA DBC
+128777;Anchor Windlass Operating Status;NMEA DBC
+128778;Anchor Windlass Monitoring Status;NMEA DBC
+128780;Linear Actuator Control/Status;NMEA DBC (2022)
+129025;"Position, Rapid Update";NMEA DBC
+129026;"COG & SOG, Rapid Update";NMEA DBC
+129027;"Position Delta, High Precision Rapid Update";NMEA DBC (2022)
+129028;"Altitude Delta, High Precision Rapid Update";NMEA DBC (2022)
+129029;GNSS Position Data;NMEA DBC
+129033;Local Time Offset;NMEA DBC
+129038;AIS Class A Position Report;NMEA DBC
+129039;AIS Class B Position Report;NMEA DBC
+129040;AIS Class B Extended Position Report;NMEA DBC
+129041;AIS Aids to Navigation (AtoN) Report;NMEA DBC
+129044;Datum;NMEA DBC
+129283;Cross Track Error;NMEA DBC
+129284;Navigation Data;NMEA DBC
+129285;Navigation - Route/WP information;NMEA DBC (2022)
+129291;"Set & Drift, Rapid Update";NMEA DBC (2022)
+129301;Time to/from Mark;NMEA DBC (2022)
+129302;Bearing and Distance between two Marks;NMEA DBC (2022)
+129538;GNSS Control Status;NMEA DBC (2022)
+129539;GNSS DOPs;NMEA DBC
+129540;GNSS Sats in View;NMEA DBC
+129541;GPS Almanac Data;NMEA DBC (2022)
+129542;GNSS Pseudorange Noise Statistics;NMEA DBC (2022)
+129545;GNSS RAIM Output;NMEA DBC (2022)
+129546;GNSS RAIM Settings;NMEA DBC (2022)
+129547;GNSS Pseudorange Error Statistics;NMEA DBC (2022)
+129549;DGNSS Corrections;NMEA DBC (2022)
+129550;GNSS Differential Correction Receiver Interface;NMEA DBC (2022)
+129551;GNSS Differential Correction Receiver Signal;NMEA DBC (2022)
+129556;GLONASS Almanac Data;NMEA DBC (2022)
+129792;AIS DGNSS Broadcast Binary Message;NMEA DBC (2022)
+129793;AIS UTC and Date Report;NMEA DBC (2022)
+129794;AIS Class A Static and Voyage Related Data;NMEA DBC
+129795;AIS Addressed Binary Message;NMEA DBC
+129796;AIS Acknowledge - DEPRECATED;NMEA DBC
+129797;AIS Binary Broadcast Message;NMEA DBC
+129798;AIS SAR Aircraft Position Report;NMEA DBC (2022)
+129799;Radio Frequency/Mode/Power;NMEA DBC (2022)
+129800;AIS UTC/Date Inquiry;NMEA DBC (2022)
+129801;AIS Addressed Safety Related Message;NMEA DBC (2022)
+129802;AIS Safety Related Broadcast Message;NMEA DBC (2022)
+129803;AIS Interrogation;NMEA DBC (2022)
+129804;AIS Assignment Mode Command;NMEA DBC (2022)
+129805;AIS Data Link Management Message;NMEA DBC (2022)
+129806;AIS Channel Management;NMEA DBC (2022)
+129807;AIS Group Assignment;NMEA DBC (2022)
+129808;DSC Call Information;NMEA DBC (2022)
+129809;"AIS Static Data Report, Part A";NMEA DBC
+129810;"AIS Static Data Report, Part B";NMEA DBC
+129811;AIS Single Slot Binary Message - DEPRECATED;NMEA DBC (2022)
+129812;AIS Multi Slot Binary Message - DEPRECATED;NMEA DBC (2022)
+129813;AIS Long-Range Broadcast Message;NMEA DBC (2022)
+129814;AIS Single Slot Binary Message;NMEA DBC (2022)
+129815;AIS Multi Slot Binary Message;NMEA DBC (2022)
+129816;AIS Acknowledge;NMEA DBC (2022)
+130052;Loran-C TD Data;NMEA DBC (2022)
+130053;Loran-C Range Data;NMEA DBC (2022)
+130054;Loran-C Signal Data;NMEA DBC (2022)
+130060;Label;NMEA DBC (2022)
+130061;Channel Source Configuration;NMEA DBC (2022)
+130064;Route and WP Service - Database List;NMEA DBC (2022)
+130065;Route and WP Service - Route List;NMEA DBC (2022)
+130066;Route and WP Service - Route/WP-List Attributes;NMEA DBC (2022)
+130067;Route and WP Service - Route - WP Name & Position;NMEA DBC (2022)
+130068;Route and WP Service - Route - WP Name;NMEA DBC (2022)
+130069;Route and WP Service - XTE Limit & Navigation Method;NMEA DBC (2022)
+130070;Route and WP Service - WP Comment;NMEA DBC (2022)
+130071;Route and WP Service - Route Comment;NMEA DBC (2022)
+130072;Route and WP Service - Database Comment;NMEA DBC (2022)
+130073;Route and WP Service - Radius of Turn;NMEA DBC (2022)
+130074;Route and WP Service - WP List - WP Name & Position;NMEA DBC (2022)
+130306;Wind Data;NMEA DBC
+130310;Environmental Parameters - DEPRECATED;NMEA DBC
+130311;Environmental Parameters- DEPRECATED;NMEA DBC
+130312;Temperature - DEPRECATED;NMEA DBC
+130313;Humidity;NMEA DBC
+130314;Actual Pressure;NMEA DBC
+130315;Set Pressure;NMEA DBC
+130316;"Temperature, Extended Range";NMEA DBC
+130320;Tide Station Data;NMEA DBC
+130321;Salinity Station Data;NMEA DBC (2022)
+130322;Current Station Data;NMEA DBC (2022)
+130323;Meteorological Station Data;NMEA DBC (2022)
+130324;Moored Buoy Station Data;NMEA DBC (2022)
+130330;Lighting System Settings;NMEA DBC (2022)
+130560;Payload Mass;NMEA DBC (2022)
+130561;Lighting Zone;NMEA DBC (2022)
+130562;Lighting Scene;NMEA DBC (2022)
+130563;Lighting Device;NMEA DBC (2022)
+130564;Lighting Device Enumeration;NMEA DBC (2022)
+130565;Lighting Color Sequence;NMEA DBC (2022)
+130566;Lighting Program;NMEA DBC (2022)
+130567;Watermaker Input Setting and Status;NMEA DBC
+130568;Entertainment - Diagnostic Status;NMEA DBC (2022)
+130569;Entertainment - Current File and Status;NMEA DBC (2022)
+130570;Entertainment - Library Data File;NMEA DBC (2022)
+130571;Entertainment - Library Data Group;NMEA DBC (2022)
+130572;Entertainment - Library Data Search;NMEA DBC (2022)
+130573;Entertainment - Supported Source Data;NMEA DBC (2022)
+130574;Entertainment - Supported Zone Data;NMEA DBC (2022)
+130575;Entertainment - Parental Control Status;NMEA DBC (2022)
+130576;Trim Tab Status;NMEA DBC (2022)
+130577;Direction Data;NMEA DBC (2022)
+130578;Vessel Speed Components;NMEA DBC
+130579;Entertainment - System Configuration;NMEA DBC (2022)
+130580;Entertainment - System Configuration Status - DEPRECATED;NMEA DBC (2022)
+130581;Entertainment - Zone Configuration Status - DEPRECATED;NMEA DBC (2022)
+130582;Entertainment - Zone Volume;NMEA DBC (2022)
+130583;Entertainment - Available Audio EQ Presets;NMEA DBC (2022)
+130584;Entertainment - Bluetooth Devices;NMEA DBC (2022)
+130585;Entertainment - Bluetooth Source Status;NMEA DBC (2022)
+130586;Entertainment - Zone Configuration Status;NMEA DBC (2022)
+130817;Proprietary B - Page 1;No
+130818;Proprietary B - Page 1;No
+130819;Proprietary B - Page 1;No
+130820;Proprietary B - Page 1;No
+130821;Proprietary B - Page 1;No
+130822;Proprietary B - Page 1;No
+130823;Proprietary B - Page 1;No
+130824;Proprietary B - Page 1;No
+130825;Proprietary B - Page 1;No
+130826;Proprietary B - Page 1;No
+130827;Proprietary B - Page 1;No
+130828;Proprietary B - Page 1;No
+130829;Proprietary B - Page 1;No
+130830;Proprietary B - Page 1;No
+130831;Proprietary B - Page 1;No
+130832;Proprietary B - Page 1;No
+130833;Proprietary B - Page 1;No
+130834;Proprietary B - Page 1;No
+130835;Proprietary B - Page 1;No
+130838;Proprietary B - Page 1;No
+130839;Proprietary B - Page 1;No
+130840;Proprietary B - Page 1;No
+130841;Proprietary B - Page 1;No
+130842;Proprietary B - Page 1;No
+130843;Proprietary B - Page 1;No
+130844;Proprietary B - Page 1;No
+130845;Proprietary B - Page 1;No
+130846;Proprietary B - Page 1;No
+130847;Proprietary B - Page 1;No
+130848;Proprietary B - Page 1;No
+130849;Proprietary B - Page 1;No
+130850;Proprietary B - Page 1;No
+130851;Proprietary B - Page 1;No
+130852;Proprietary B - Page 1;No
+130853;Proprietary B - Page 1;No
+130854;Proprietary B - Page 1;No
+130855;Proprietary B - Page 1;No
+130856;Proprietary B - Page 1;No
+130857;Proprietary B - Page 1;No
+130858;Proprietary B - Page 1;No
+130859;Proprietary B - Page 1;No
+130860;Proprietary B - Page 1;No
+130861;Proprietary B - Page 1;No
+130862;Proprietary B - Page 1;No
+130863;Proprietary B - Page 1;No
+130864;Proprietary B - Page 1;No
+130865;Proprietary B - Page 1;No
+130866;Proprietary B - Page 1;No
+130867;Proprietary B - Page 1;No
+130868;Proprietary B - Page 1;No
+130869;Proprietary B - Page 1;No
+130870;Proprietary B - Page 1;No
+130871;Proprietary B - Page 1;No
+130872;Proprietary B - Page 1;No
+130873;Proprietary B - Page 1;No
+130874;Proprietary B - Page 1;No
+130875;Proprietary B - Page 1;No
+130876;Proprietary B - Page 1;No
+130877;Proprietary B - Page 1;No
+130878;Proprietary B - Page 1;No
+130879;Proprietary B - Page 1;No
+130880;Proprietary B - Page 1;No
+130881;Proprietary B - Page 1;No
+130882;Proprietary B - Page 1;No
+130883;Proprietary B - Page 1;No
+130884;Proprietary B - Page 1;No
+130885;Proprietary B - Page 1;No
+130886;Proprietary B - Page 1;No
+130887;Proprietary B - Page 1;No
+130888;Proprietary B - Page 1;No
+130889;Proprietary B - Page 1;No
+130890;Proprietary B - Page 1;No
+130891;Proprietary B - Page 1;No
+130892;Proprietary B - Page 1;No
+130893;Proprietary B - Page 1;No
+130894;Proprietary B - Page 1;No
+130895;Proprietary B - Page 1;No
+130896;Proprietary B - Page 1;No
+130897;Proprietary B - Page 1;No
+130898;Proprietary B - Page 1;No
+130899;Proprietary B - Page 1;No
+130900;Proprietary B - Page 1;No
+130901;Proprietary B - Page 1;No
+130902;Proprietary B - Page 1;No
+130903;Proprietary B - Page 1;No
+130904;Proprietary B - Page 1;No
+130905;Proprietary B - Page 1;No
+130906;Proprietary B - Page 1;No
+130907;Proprietary B - Page 1;No
+130908;Proprietary B - Page 1;No
+130909;Proprietary B - Page 1;No
+130910;Proprietary B - Page 1;No
+130911;Proprietary B - Page 1;No
+130912;Proprietary B - Page 1;No
+130913;Proprietary B - Page 1;No
+130914;Proprietary B - Page 1;No
+130915;Proprietary B - Page 1;No
+130916;Proprietary B - Page 1;No
+130917;Proprietary B - Page 1;No
+130918;Proprietary B - Page 1;No
+130919;Proprietary B - Page 1;No
+130920;Proprietary B - Page 1;No
+130921;Proprietary B - Page 1;No
+130922;Proprietary B - Page 1;No
+130923;Proprietary B - Page 1;No
+130924;Proprietary B - Page 1;No
+130925;Proprietary B - Page 1;No
+130926;Proprietary B - Page 1;No
+130927;Proprietary B - Page 1;No
+130928;Proprietary B - Page 1;No
+130929;Proprietary B - Page 1;No
+130930;Proprietary B - Page 1;No
+130931;Proprietary B - Page 1;No
+130932;Proprietary B - Page 1;No
+130933;Proprietary B - Page 1;No
+130934;Proprietary B - Page 1;No
+130935;Proprietary B - Page 1;No
+130936;Proprietary B - Page 1;No
+130937;Proprietary B - Page 1;No
+130938;Proprietary B - Page 1;No
+130939;Proprietary B - Page 1;No
+130940;Proprietary B - Page 1;No
+130941;Proprietary B - Page 1;No
+130942;Proprietary B - Page 1;No
+130943;Proprietary B - Page 1;No
+130944;Proprietary B - Page 1;No
+130945;Proprietary B - Page 1;No
+130946;Proprietary B - Page 1;No
+130947;Proprietary B - Page 1;No
+130948;Proprietary B - Page 1;No
+130949;Proprietary B - Page 1;No
+130950;Proprietary B - Page 1;No
+130951;Proprietary B - Page 1;No
+130952;Proprietary B - Page 1;No
+130953;Proprietary B - Page 1;No
+130954;Proprietary B - Page 1;No
+130955;Proprietary B - Page 1;No
+130956;Proprietary B - Page 1;No
+130957;Proprietary B - Page 1;No
+130958;Proprietary B - Page 1;No
+130959;Proprietary B - Page 1;No
+130960;Proprietary B - Page 1;No
+130961;Proprietary B - Page 1;No
+130962;Proprietary B - Page 1;No
+130963;Proprietary B - Page 1;No
+130964;Proprietary B - Page 1;No
+130965;Proprietary B - Page 1;No
+130966;Proprietary B - Page 1;No
+130967;Proprietary B - Page 1;No
+130968;Proprietary B - Page 1;No
+130969;Proprietary B - Page 1;No
+130970;Proprietary B - Page 1;No
+130971;Proprietary B - Page 1;No
+130972;Proprietary B - Page 1;No
+130973;Proprietary B - Page 1;No
+130974;Proprietary B - Page 1;No
+130975;Proprietary B - Page 1;No
+130976;Proprietary B - Page 1;No
+130977;Proprietary B - Page 1;No
+130978;Proprietary B - Page 1;No
+130979;Proprietary B - Page 1;No
+130980;Proprietary B - Page 1;No
+130981;Proprietary B - Page 1;No
+130982;Proprietary B - Page 1;No
+130983;Proprietary B - Page 1;No
+130984;Proprietary B - Page 1;No
+130985;Proprietary B - Page 1;No
+130986;Proprietary B - Page 1;No
+130987;Proprietary B - Page 1;No
+130988;Proprietary B - Page 1;No
+130989;Proprietary B - Page 1;No
+130990;Proprietary B - Page 1;No
+130991;Proprietary B - Page 1;No
+130992;Proprietary B - Page 1;No
+130993;Proprietary B - Page 1;No
+130994;Proprietary B - Page 1;No
+130995;Proprietary B - Page 1;No
+130996;Proprietary B - Page 1;No
+130997;Proprietary B - Page 1;No
+130998;Proprietary B - Page 1;No
+130999;Proprietary B - Page 1;No
+131000;Proprietary B - Page 1;No
+131001;Proprietary B - Page 1;No
+131002;Proprietary B - Page 1;No
+131003;Proprietary B - Page 1;No
+131004;Proprietary B - Page 1;No
+131005;Proprietary B - Page 1;No
+131006;Proprietary B - Page 1;No
+131007;Proprietary B - Page 1;No
+131008;Proprietary B - Page 1;No
+131009;Proprietary B - Page 1;No
+131010;Proprietary B - Page 1;No
+131011;Proprietary B - Page 1;No
+131012;Proprietary B - Page 1;No
+131013;Proprietary B - Page 1;No
+131014;Proprietary B - Page 1;No
+131015;Proprietary B - Page 1;No
+131016;Proprietary B - Page 1;No
+131017;Proprietary B - Page 1;No
+131018;Proprietary B - Page 1;No
+131019;Proprietary B - Page 1;No
+131020;Proprietary B - Page 1;No
+131021;Proprietary B - Page 1;No
+131022;Proprietary B - Page 1;No
+131023;Proprietary B - Page 1;No
+131024;Proprietary B - Page 1;No
+131025;Proprietary B - Page 1;No
+131026;Proprietary B - Page 1;No
+131027;Proprietary B - Page 1;No
+131028;Proprietary B - Page 1;No
+131029;Proprietary B - Page 1;No
+131030;Proprietary B - Page 1;No
+131031;Proprietary B - Page 1;No
+131032;Proprietary B - Page 1;No
+131033;Proprietary B - Page 1;No
+131034;Proprietary B - Page 1;No
+131035;Proprietary B - Page 1;No
+131036;Proprietary B - Page 1;No
+131037;Proprietary B - Page 1;No
+131038;Proprietary B - Page 1;No
+131039;Proprietary B - Page 1;No
+131040;Proprietary B - Page 1;No
+131041;Proprietary B - Page 1;No
+131042;Proprietary B - Page 1;No
+131043;Proprietary B - Page 1;No
+131044;Proprietary B - Page 1;No
+131045;Proprietary B - Page 1;No
+131046;Proprietary B - Page 1;No
+131047;Proprietary B - Page 1;No
+131048;Proprietary B - Page 1;No
+131049;Proprietary B - Page 1;No
+131050;Proprietary B - Page 1;No
+131051;Proprietary B - Page 1;No
+131052;Proprietary B - Page 1;No
+131053;Proprietary B - Page 1;No
+131054;Proprietary B - Page 1;No
+131055;Proprietary B - Page 1;No
+131056;Proprietary B - Page 1;No
+131057;Proprietary B - Page 1;No
+131058;Proprietary B - Page 1;No
+131059;Proprietary B - Page 1;No
+131060;Proprietary B - Page 1;No
+131061;Proprietary B - Page 1;No
+131062;Proprietary B - Page 1;No
+131063;Proprietary B - Page 1;No
+131064;Proprietary B - Page 1;No
+131065;Proprietary B - Page 1;No
+131066;Proprietary B - Page 1;No
+131067;Proprietary B - Page 1;No
+131068;Proprietary B - Page 1;No
+131069;Proprietary B - Page 1;No
+131070;Proprietary B - Page 1;No
+131071;Proprietary B - Page 1 (last entry);No

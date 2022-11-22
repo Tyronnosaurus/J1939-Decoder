@@ -125,7 +125,7 @@ def main():
             # Other boilerplate columns. Taken from the demo.py script. Don't know how necessary they are for asammdf but I include them just in case
             df.at[i,'BusChannel'] = 1
             df.at[i,'IDE'] = 1
-            df.at[i,'DLC'] = 1
+            df.at[i,'DLC'] = 8  # Data length code (unless we use CAN FD, DataLength and DLC are the same)
             df.at[i,'Dir'] = 1
             df.at[i,'EDL'] = 1
             df.at[i,'BRS'] = 1

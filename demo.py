@@ -2,7 +2,7 @@
 Taken from https://stackoverflow.com/questions/66630991/create-mf4-to-be-decode-by-j1939-dbc-asammdf
 Creates a dummy MDF in such a way that asammdf can load it.
 And more importantly: asammdf shows the Bus Logging tab so that we can decode the data with a DBC dictionary.
-I have used this demo as a base for the PrepareMF4.py scripts.
+I have used this demo as a base for the PrepareMF4.py script.
 """
 
 from asammdf import MDF, SUPPORTED_VERSIONS, Signal
@@ -61,5 +61,5 @@ sigs.append(sig)
 
 mdf.append(sigs, comment='arrays', common_timebase=True)
 
-mdf.save('Converted/demo.mf4', overwrite=True)
+mdf.save('Results/demo.mf4', overwrite=True)
 print('finished')

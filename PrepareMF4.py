@@ -111,24 +111,24 @@ def main():
             # Build the 29 bit Extended CAN ID:
             #                  Extended Data Page
             #       Priority     (AKA Reserved)     Data Page   PDU Format   PDU specific   Source Address
-            #       (3 bits)       (1 bits)          (1 bits)    (8 bits)      (8 bits)       (8 bits)
+            #       (3 bits)       (1 bit)           (1 bit)     (8 bits)      (8 bits)       (8 bits)
             #                 |------------------- PGN (18 bits) ------------------------|
 
             b1 = hexStr2binStr(priority_hex, 3) # Priority, 3 bits
             b2 = hexStr2binStr(pgn_hex, 18)     # PGN, 18 bits
             b3 = hexStr2binStr(source_hex, 8)   # Source, 8 bits
             ID = b1 + b2 + b3                      # Concatenate binary strings
-            #print(b1, b2, b3, " --->  ID", ID, "  Length: ", len(ID), " bits")
+            #print(b1, b2, b3, " --->  ID", ID, "  Length: ", len(ID), " bits")   # For debugging
             df.at[i,'ID'] = binStr2HexStr(ID)      # Convert back to hexadecimal (ex: "CFF2303")
 
 
             # Other boilerplate columns. Taken from the demo.py script. Don't know how necessary they are for asammdf but I include them just in case
             df.at[i,'BusChannel'] = 1
-            df.at[i,'IDE'] = 1
+            df.at[i,'IDE'] = 1  # The ID type (regular/extended)
             df.at[i,'DLC'] = 8  # Data length code (unless we use CAN FD, DataLength and DLC are the same)
-            df.at[i,'Dir'] = 1
-            df.at[i,'EDL'] = 1
-            df.at[i,'BRS'] = 1
+            df.at[i,'Dir'] = 1  # The direction (received, transmitted)
+            df.at[i,'EDL'] = 1  # Related to the Cyclic Redundancy Check
+            df.at[i,'BRS'] = 1  # Bit Rate Switch. 0=Dominant, the CAN FD data frame is sent at the arbitration rate (i.e. up to max 1 Mbit/s). 1=Recessive, the remaining part of the data frame is sent at a higher bit rate (up to 5 Mbit/s).
 
 
             # Lookup CSS Electronics' PGN table to get a human readable name for the PGN (e.g. "Electronic Brake Controller 1"),
@@ -229,7 +229,7 @@ def main():
 
     filename = Path(sourcePath).stem + ".mf4"
     pathResultMf4 = os.path.join(ResultsFolder, filename)
-    mdf.save(pathResultMf4, overwrite=True)
+    mdf.save(pathResultMf4, overwrite=True)     # Warning: will fail if file is currently open in asammdf
 
     #print( mdf.get_group(0) )
 
